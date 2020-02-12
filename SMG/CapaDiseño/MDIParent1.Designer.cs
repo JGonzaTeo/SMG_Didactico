@@ -73,6 +73,11 @@
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.verificacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+=======
+            this.adultosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> Angel-Solares
             this.toolStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -91,10 +96,17 @@
             this.toolStripLabel3,
             this.toolStripSeparator1,
             this.toolStripLabel1});
+<<<<<<< HEAD
             this.toolStrip.Location = new System.Drawing.Point(0, 24);
             this.toolStrip.Name = "toolStrip";
             this.toolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.toolStrip.Size = new System.Drawing.Size(923, 27);
+=======
+            this.toolStrip.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip.Name = "toolStrip";
+            this.toolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip.Size = new System.Drawing.Size(1231, 27);
+>>>>>>> Angel-Solares
             this.toolStrip.TabIndex = 1;
             this.toolStrip.Text = "ToolStrip";
             // 
@@ -110,7 +122,11 @@
             this.helpToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("helpToolStripButton.Image")));
             this.helpToolStripButton.ImageTransparentColor = System.Drawing.Color.Black;
             this.helpToolStripButton.Name = "helpToolStripButton";
+<<<<<<< HEAD
             this.helpToolStripButton.Size = new System.Drawing.Size(24, 24);
+=======
+            this.helpToolStripButton.Size = new System.Drawing.Size(29, 24);
+>>>>>>> Angel-Solares
             this.helpToolStripButton.Text = "Ayuda";
             // 
             // toolStripSeparator8
@@ -130,7 +146,11 @@
             this.saveToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripButton.Image")));
             this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Black;
             this.saveToolStripButton.Name = "saveToolStripButton";
+<<<<<<< HEAD
             this.saveToolStripButton.Size = new System.Drawing.Size(24, 24);
+=======
+            this.saveToolStripButton.Size = new System.Drawing.Size(29, 24);
+>>>>>>> Angel-Solares
             this.saveToolStripButton.Text = "Guardar";
             this.saveToolStripButton.Click += new System.EventHandler(this.SaveToolStripButton_Click);
             // 
@@ -173,7 +193,11 @@
             this.exitToolStripMenuItem});
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
             this.fileMenu.Name = "fileMenu";
+<<<<<<< HEAD
             this.fileMenu.Size = new System.Drawing.Size(60, 20);
+=======
+            this.fileMenu.Size = new System.Drawing.Size(73, 24);
+>>>>>>> Angel-Solares
             this.fileMenu.Text = "&Archivo";
             // 
             // newToolStripMenuItem
@@ -182,7 +206,11 @@
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+<<<<<<< HEAD
             this.newToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.newToolStripMenuItem.Text = "&Nuevo";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.ShowNewForm);
             // 
@@ -192,14 +220,22 @@
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+<<<<<<< HEAD
             this.openToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.openToolStripMenuItem.Text = "&Abrir";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.OpenFile);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
+<<<<<<< HEAD
             this.toolStripSeparator3.Size = new System.Drawing.Size(203, 6);
+=======
+            this.toolStripSeparator3.Size = new System.Drawing.Size(257, 6);
+>>>>>>> Angel-Solares
             // 
             // saveToolStripMenuItem
             // 
@@ -207,20 +243,32 @@
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+<<<<<<< HEAD
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.saveToolStripMenuItem.Text = "&Guardar";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
+<<<<<<< HEAD
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.saveAsToolStripMenuItem.Text = "Guardar &como";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.SaveAsToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
+<<<<<<< HEAD
             this.toolStripSeparator4.Size = new System.Drawing.Size(203, 6);
+=======
+            this.toolStripSeparator4.Size = new System.Drawing.Size(257, 6);
+>>>>>>> Angel-Solares
             // 
             // printToolStripMenuItem
             // 
@@ -228,7 +276,11 @@
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+<<<<<<< HEAD
             this.printToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.printToolStripMenuItem.Text = "&Imprimir";
             // 
             // printPreviewToolStripMenuItem
@@ -236,24 +288,40 @@
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
+<<<<<<< HEAD
             this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.printPreviewToolStripMenuItem.Text = "&Vista previa de impresión";
             // 
             // printSetupToolStripMenuItem
             // 
             this.printSetupToolStripMenuItem.Name = "printSetupToolStripMenuItem";
+<<<<<<< HEAD
             this.printSetupToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.printSetupToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.printSetupToolStripMenuItem.Text = "Configurar impresión";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
+<<<<<<< HEAD
             this.toolStripSeparator5.Size = new System.Drawing.Size(203, 6);
+=======
+            this.toolStripSeparator5.Size = new System.Drawing.Size(257, 6);
+>>>>>>> Angel-Solares
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+<<<<<<< HEAD
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+=======
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
+>>>>>>> Angel-Solares
             this.exitToolStripMenuItem.Text = "&Salir";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
@@ -269,7 +337,11 @@
             this.toolStripSeparator7,
             this.selectAllToolStripMenuItem});
             this.editMenu.Name = "editMenu";
+<<<<<<< HEAD
             this.editMenu.Size = new System.Drawing.Size(49, 20);
+=======
+            this.editMenu.Size = new System.Drawing.Size(62, 24);
+>>>>>>> Angel-Solares
             this.editMenu.Text = "&Editar";
             // 
             // undoToolStripMenuItem
@@ -278,7 +350,11 @@
             this.undoToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
             this.undoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
+<<<<<<< HEAD
             this.undoToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+=======
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
+>>>>>>> Angel-Solares
             this.undoToolStripMenuItem.Text = "&Deshacer";
             // 
             // redoToolStripMenuItem
@@ -287,13 +363,21 @@
             this.redoToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
             this.redoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
+<<<<<<< HEAD
             this.redoToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+=======
+            this.redoToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
+>>>>>>> Angel-Solares
             this.redoToolStripMenuItem.Text = "&Rehacer";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
+<<<<<<< HEAD
             this.toolStripSeparator6.Size = new System.Drawing.Size(201, 6);
+=======
+            this.toolStripSeparator6.Size = new System.Drawing.Size(253, 6);
+>>>>>>> Angel-Solares
             // 
             // cutToolStripMenuItem
             // 
@@ -301,7 +385,11 @@
             this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+<<<<<<< HEAD
             this.cutToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+=======
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
+>>>>>>> Angel-Solares
             this.cutToolStripMenuItem.Text = "Cor&tar";
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.CutToolStripMenuItem_Click);
             // 
@@ -311,7 +399,11 @@
             this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+<<<<<<< HEAD
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+=======
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
+>>>>>>> Angel-Solares
             this.copyToolStripMenuItem.Text = "&Copiar";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.CopyToolStripMenuItem_Click);
             // 
@@ -321,20 +413,32 @@
             this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+<<<<<<< HEAD
             this.pasteToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+=======
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
+>>>>>>> Angel-Solares
             this.pasteToolStripMenuItem.Text = "&Pegar";
             this.pasteToolStripMenuItem.Click += new System.EventHandler(this.PasteToolStripMenuItem_Click);
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
+<<<<<<< HEAD
             this.toolStripSeparator7.Size = new System.Drawing.Size(201, 6);
+=======
+            this.toolStripSeparator7.Size = new System.Drawing.Size(253, 6);
+>>>>>>> Angel-Solares
             // 
             // selectAllToolStripMenuItem
             // 
             this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
             this.selectAllToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+<<<<<<< HEAD
             this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+=======
+            this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
+>>>>>>> Angel-Solares
             this.selectAllToolStripMenuItem.Text = "Seleccionar &todo";
             // 
             // viewMenu
@@ -343,20 +447,32 @@
             this.localesToolStripMenuItem,
             this.internacionalesToolStripMenuItem});
             this.viewMenu.Name = "viewMenu";
+<<<<<<< HEAD
             this.viewMenu.Size = new System.Drawing.Size(62, 20);
+=======
+            this.viewMenu.Size = new System.Drawing.Size(77, 24);
+>>>>>>> Angel-Solares
             this.viewMenu.Text = "&Noticias";
             // 
             // localesToolStripMenuItem
             // 
             this.localesToolStripMenuItem.Name = "localesToolStripMenuItem";
+<<<<<<< HEAD
             this.localesToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+=======
+            this.localesToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+>>>>>>> Angel-Solares
             this.localesToolStripMenuItem.Text = "Locales";
             this.localesToolStripMenuItem.Click += new System.EventHandler(this.LocalesToolStripMenuItem_Click);
             // 
             // internacionalesToolStripMenuItem
             // 
             this.internacionalesToolStripMenuItem.Name = "internacionalesToolStripMenuItem";
+<<<<<<< HEAD
             this.internacionalesToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+=======
+            this.internacionalesToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+>>>>>>> Angel-Solares
             this.internacionalesToolStripMenuItem.Text = "Internacionales";
             // 
             // toolsMenu
@@ -366,7 +482,11 @@
             this.calendarioToolStripMenuItem,
             this.botonDePanicoToolStripMenuItem});
             this.toolsMenu.Name = "toolsMenu";
+<<<<<<< HEAD
             this.toolsMenu.Size = new System.Drawing.Size(90, 20);
+=======
+            this.toolsMenu.Size = new System.Drawing.Size(112, 24);
+>>>>>>> Angel-Solares
             this.toolsMenu.Text = "&Herramientas";
             // 
             // mantenimientosToolStripMenuItem
@@ -374,31 +494,51 @@
             this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.documentosLegalesToolStripMenuItem});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
+<<<<<<< HEAD
             this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+=======
+            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> Angel-Solares
             this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
             // 
             // documentosLegalesToolStripMenuItem
             // 
             this.documentosLegalesToolStripMenuItem.Name = "documentosLegalesToolStripMenuItem";
+<<<<<<< HEAD
             this.documentosLegalesToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+=======
+            this.documentosLegalesToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+>>>>>>> Angel-Solares
             this.documentosLegalesToolStripMenuItem.Text = "Documentos legales";
             // 
             // calendarioToolStripMenuItem
             // 
             this.calendarioToolStripMenuItem.Name = "calendarioToolStripMenuItem";
+<<<<<<< HEAD
             this.calendarioToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+=======
+            this.calendarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> Angel-Solares
             this.calendarioToolStripMenuItem.Text = "Calendario";
             // 
             // botonDePanicoToolStripMenuItem
             // 
             this.botonDePanicoToolStripMenuItem.Name = "botonDePanicoToolStripMenuItem";
+<<<<<<< HEAD
             this.botonDePanicoToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+=======
+            this.botonDePanicoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> Angel-Solares
             this.botonDePanicoToolStripMenuItem.Text = "Boton de panico";
             // 
             // cerrarToolStripMenuItem
             // 
             this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
+<<<<<<< HEAD
             this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+=======
+            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
+>>>>>>> Angel-Solares
             this.cerrarToolStripMenuItem.Text = "Cerrar";
             this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.CerrarToolStripMenuItem_Click);
             // 
@@ -414,14 +554,21 @@
             this.verificacionToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
+<<<<<<< HEAD
             this.menuStrip.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
             this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.menuStrip.Size = new System.Drawing.Size(923, 24);
+=======
+            this.menuStrip.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.menuStrip.Size = new System.Drawing.Size(1231, 28);
+>>>>>>> Angel-Solares
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
             // verificacionToolStripMenuItem
             // 
+<<<<<<< HEAD
             this.verificacionToolStripMenuItem.Name = "verificacionToolStripMenuItem";
             this.verificacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.verificacionToolStripMenuItem.Text = "Verificacion";
@@ -434,11 +581,46 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(923, 857);
+=======
+            this.verificacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adultosToolStripMenuItem,
+            this.menoresToolStripMenuItem});
+            this.verificacionToolStripMenuItem.Name = "verificacionToolStripMenuItem";
+            this.verificacionToolStripMenuItem.Size = new System.Drawing.Size(100, 24);
+            this.verificacionToolStripMenuItem.Text = "Verificacion";
+            this.verificacionToolStripMenuItem.Click += new System.EventHandler(this.verificacionToolStripMenuItem_Click);
+            // 
+            // adultosToolStripMenuItem
+            // 
+            this.adultosToolStripMenuItem.Name = "adultosToolStripMenuItem";
+            this.adultosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.adultosToolStripMenuItem.Text = "Adultos";
+            this.adultosToolStripMenuItem.Click += new System.EventHandler(this.AdultosToolStripMenuItem_Click);
+            // 
+            // menoresToolStripMenuItem
+            // 
+            this.menoresToolStripMenuItem.Name = "menoresToolStripMenuItem";
+            this.menoresToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.menoresToolStripMenuItem.Text = "Menores";
+            this.menoresToolStripMenuItem.Click += new System.EventHandler(this.MenoresToolStripMenuItem_Click);
+            // 
+            // MDIParent1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(1231, 1055);
+>>>>>>> Angel-Solares
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.menuStrip);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
+<<<<<<< HEAD
+=======
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> Angel-Solares
             this.Name = "MDIParent1";
             this.Text = "MDIParent1";
             this.toolStrip.ResumeLayout(false);
@@ -494,6 +676,11 @@
         private System.Windows.Forms.ToolStripMenuItem calendarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem botonDePanicoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verificacionToolStripMenuItem;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.ToolStripMenuItem adultosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menoresToolStripMenuItem;
+>>>>>>> Angel-Solares
     }
 }
 

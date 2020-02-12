@@ -15,3 +15,15 @@ C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csprojAss
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
+>>>>>>> Angel-Solares

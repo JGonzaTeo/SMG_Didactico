@@ -131,11 +131,24 @@ namespace CapaDiseño
            // MessageBox.Show(tablaok);
         }
 
+<<<<<<< HEAD
         bool ventanaValidacion = false;
         Frm_verificacionPrimerP capacitacion = new Frm_verificacionPrimerP();
 
         private void verificacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
+=======
+        
+
+        private void verificacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+        bool ventanaValidacion = false;
+        Frm_verificacionPrimerP capacitacion = new Frm_verificacionPrimerP();
+        private void AdultosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+>>>>>>> Angel-Solares
             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_verificacionPrimerP);
             if (ventanaValidacion == false || frmC == null)
             {
@@ -154,6 +167,32 @@ namespace CapaDiseño
                 capacitacion.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+<<<<<<< HEAD
+=======
+
+        bool ventanaValidacionH = false;
+        Frm_verificacionHijosPrimerP capacitacionH = new Frm_verificacionHijosPrimerP();
+        private void MenoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_verificacionPrimerP);
+            if (ventanaValidacionH == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    capacitacionH = new Frm_verificacionHijosPrimerP();
+                }
+
+                capacitacionH.MdiParent = this;
+                capacitacionH.Show();
+                Application.DoEvents();
+                ventanaValidacionH = true;
+            }
+            else
+            {
+                capacitacionH.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+>>>>>>> Angel-Solares
     }
     }
 
