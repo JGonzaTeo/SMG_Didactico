@@ -1,0 +1,51 @@
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
