@@ -6,9 +6,21 @@ C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDatos\obj\Debug\CapaDatos.
 C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
-C:\Users\dell\Desktop\repositorio\SMG_Didactico\SMG\CapaDatos\bin\Debug\CapaDatos.dll
-C:\Users\dell\Desktop\repositorio\SMG_Didactico\SMG\CapaDatos\bin\Debug\CapaDatos.pdb
-C:\Users\dell\Desktop\repositorio\SMG_Didactico\SMG\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
-C:\Users\dell\Desktop\repositorio\SMG_Didactico\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
-C:\Users\dell\Desktop\repositorio\SMG_Didactico\SMG\CapaDatos\obj\Debug\CapaDatos.dll
-C:\Users\dell\Desktop\repositorio\SMG_Didactico\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\MySql.Data.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\Google.Protobuf.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\Renci.SshNet.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\MySql.Data.xml
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\dell\Desktop\proyecto\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\dell\Desktop\proyecto\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\dell\Desktop\proyecto\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\proyecto\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\dell\Desktop\proyecto\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\dell\Desktop\proyecto\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.pdb

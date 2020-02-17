@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDiseño.Procesos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,11 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaLogica;
 
 namespace CapaDiseño
 {
+   
     public partial class MDIParent1 : Form
     {
+        Logica logic = new Logica();
+
         private int childFormNumber = 0;
 
         public MDIParent1()
@@ -100,5 +105,60 @@ namespace CapaDiseño
         {
             Dispose();
         }
+
+        private void LocalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_noticias childForm = new Frm_noticias();
+            childForm.MdiParent = this;
+            childForm.Text = "Ventana " + childFormNumber++;
+            childForm.Show();
+            
+           // Frm_noticias noti = new Frm_noticias();
+            //noti.Show();
+
+        }
+
+        private void ToolStripLabel3_Click(object sender, EventArgs e)
+        {
+            string tabla = "tbl_ticket";
+            logic.TestTabla(tabla);  
+        }
+
+        private void SaveToolStripButton_Click(object sender, EventArgs e)
+        {
+            //string tabla = "tbl_wsrenap";
+           // string tablaok= logic.TestTabla(tabla);
+           // MessageBox.Show(tablaok);
+        }
+
+        bool ventanaValidacion = false;
+        Frm_verificacionPrimerP capacitacion = new Frm_verificacionPrimerP();
+
+        private void verificacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_verificacionPrimerP);
+            if (ventanaValidacion == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    capacitacion = new Frm_verificacionPrimerP();
+                }
+
+                capacitacion.MdiParent = this;
+                capacitacion.Show();
+                Application.DoEvents();
+                ventanaValidacion = true;
+            }
+            else
+            {
+                capacitacion.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        private void toolsMenu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+    }
+

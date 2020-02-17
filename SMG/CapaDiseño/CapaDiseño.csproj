@@ -44,11 +44,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Mantenimientos\Frm_manDocumentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_manDocumentos.Designer.cs">
+      <DependentUpon>Frm_manDocumentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MDIParent1.Designer.cs">
       <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Frm_noticias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_noticias.Designer.cs">
+      <DependentUpon>Frm_noticias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Frm_verificacionPrimerP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_verificacionPrimerP.designer.cs">
+      <DependentUpon>Frm_verificacionPrimerP.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -56,21 +74,35 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Sentencias.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
-      <Project>{b24840d4-af5b-42db-919d-5bb946230cf1}</Project>
-      <Name>CapaLogica</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
+    <EmbeddedResource Include="Mantenimientos\Frm_manDocumentos.resx">
+      <DependentUpon>Frm_manDocumentos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_noticias.resx">
+      <DependentUpon>Frm_noticias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_verificacionPrimerP.resx">
+      <DependentUpon>Frm_verificacionPrimerP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{bb5a4795-77ea-468e-82f9-f625be909d77}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{b24840d4-af5b-42db-919d-5bb946230cf1}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

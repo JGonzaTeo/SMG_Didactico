@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapaLogica
+namespace CapaDiseño
 {
     public class Class1
     {
