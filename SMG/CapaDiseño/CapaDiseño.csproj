@@ -56,30 +56,24 @@
     <Compile Include="MDIParent1.Designer.cs">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
     <Compile Include="Procesos\Frm_Cita.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Procesos\Frm_Cita.Designer.cs">
       <DependentUpon>Frm_Cita.cs</DependentUpon>
     </Compile>
->>>>>>> Angel-Solares
     <Compile Include="Procesos\Frm_noticias.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Procesos\Frm_noticias.Designer.cs">
       <DependentUpon>Frm_noticias.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
     <Compile Include="Procesos\Frm_verificacionHijosPrimerP.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Procesos\Frm_verificacionHijosPrimerP.Designer.cs">
       <DependentUpon>Frm_verificacionHijosPrimerP.cs</DependentUpon>
     </Compile>
->>>>>>> Angel-Solares
     <Compile Include="Procesos\Frm_verificacionPrimerP.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,11 +94,6 @@
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="Procesos\Frm_noticias.resx">
-      <DependentUpon>Frm_noticias.cs</DependentUpon>
-    </EmbeddedResource>
-=======
     <EmbeddedResource Include="Procesos\Frm_Cita.resx">
       <DependentUpon>Frm_Cita.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,7 +103,6 @@
     <EmbeddedResource Include="Procesos\Frm_verificacionHijosPrimerP.resx">
       <DependentUpon>Frm_verificacionHijosPrimerP.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> Angel-Solares
     <EmbeddedResource Include="Procesos\Frm_verificacionPrimerP.resx">
       <DependentUpon>Frm_verificacionPrimerP.cs</DependentUpon>
     </EmbeddedResource>

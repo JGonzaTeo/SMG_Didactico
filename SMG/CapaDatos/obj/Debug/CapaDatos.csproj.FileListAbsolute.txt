@@ -18,8 +18,6 @@ C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csprojAssem
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
-<<<<<<< HEAD
-=======
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\CapaDatos.dll
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\bin\Debug\Google.Protobuf.dll
@@ -32,4 +30,3 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csp
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
->>>>>>> Angel-Solares

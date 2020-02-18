@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaLogica;
 using System.Data.Odbc;
+using System.Diagnostics;
 
 namespace CapaDiseño.Procesos
 {
@@ -100,7 +101,7 @@ namespace CapaDiseño.Procesos
         private void Btn_banco_Click(object sender, EventArgs e)
         {
             OdbcDataReader mostrarResultado = logic.verificacionBanco(txt_banco.Text);
-            string banco = mostrarResultado.GetString(0);
+            //string banco = mostrarResultado.GetString(0);
             if (txt_banco.Text == banco)
             {
                 if (mostrarResultado.GetString(1) == "1")
@@ -124,6 +125,28 @@ namespace CapaDiseño.Procesos
             {
                 MessageBox.Show("Codigo no encontrado.");
             }
+        }
+
+        private void Btn_guardar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frm_verificacionHijosPrimerP_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_adjuntar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog buscar = new OpenFileDialog();
+
+            if (buscar.ShowDialog() == DialogResult.OK)
+            {
+                txt_adjuntar.Text = buscar.FileName;
+            }
+
+            txt_adjuntar.Enabled = false;
         }
     }
 }

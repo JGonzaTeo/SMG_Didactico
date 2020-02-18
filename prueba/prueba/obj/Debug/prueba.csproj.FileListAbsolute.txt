@@ -31,8 +31,6 @@ C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.Generat
 C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
 C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.pdb
-<<<<<<< HEAD
-=======
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\prueba.exe.config
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\prueba.exe
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\prueba.pdb
@@ -50,4 +48,3 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.pdb
->>>>>>> Angel-Solares

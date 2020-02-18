@@ -30,8 +30,6 @@ C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
 C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
-<<<<<<< HEAD
-=======
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
@@ -51,4 +49,3 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
->>>>>>> Angel-Solares
