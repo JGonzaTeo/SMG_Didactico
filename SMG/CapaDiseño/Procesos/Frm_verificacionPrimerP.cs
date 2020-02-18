@@ -10,6 +10,10 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using CapaLogica;
 using System.Data.Odbc;
+<<<<<<< HEAD
+=======
+using CapaDiseño.Procesos;
+>>>>>>> Angel-Solares
 
 namespace CapaDiseño
 {
@@ -38,15 +42,25 @@ namespace CapaDiseño
 
         void verificarDatos()
         {
+<<<<<<< HEAD
             if (txt_CUI.Text == lbl_CUI.Text && txt_nombre.Text == lbl_nombre.Text && txt_apellidos.Text == lbl_apellidos.Text && txt_nacionalidad.Text == lbl_nacionalidad.Text && txt_sexo.Text == lbl_sexo.Text && txt_fecha.Text == lbl_fechaN.Text && txt_pais.Text == lbl_paisN.Text)
+=======
+            string fecha = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+            if (txt_CUI.Text == lbl_CUI.Text && txt_nombre.Text == lbl_nombre.Text && txt_apellidos.Text == lbl_apellidos.Text && txt_nacionalidad.Text == lbl_nacionalidad.Text && txt_sexo.Text == lbl_sexo.Text && fecha == lbl_fechaN.Text && txt_pais.Text == lbl_paisN.Text)
+>>>>>>> Angel-Solares
             {
                 MessageBox.Show("Datos verificados.");
                 txt_CUI.Enabled = false; 
                 txt_nombre.Enabled = false;
                 txt_apellidos.Enabled = false; 
                 txt_nacionalidad.Enabled = false;
+<<<<<<< HEAD
                 txt_sexo.Enabled = false; 
                 txt_fecha.Enabled = false; 
+=======
+                txt_sexo.Enabled = false;
+                dateTimePicker1.Enabled = false;
+>>>>>>> Angel-Solares
                 txt_pais.Enabled = false;
 
                 txt_ornato.Enabled = true;
@@ -66,7 +80,11 @@ namespace CapaDiseño
         {
             //tabla=campo
             string campo = txt_CUI.Text;
+<<<<<<< HEAD
             if (string.IsNullOrEmpty(txt_CUI.Text) || string.IsNullOrEmpty(txt_nombre.Text) || string.IsNullOrEmpty(txt_apellidos.Text) || string.IsNullOrEmpty(txt_nacionalidad.Text) || string.IsNullOrEmpty(txt_sexo.Text) || string.IsNullOrEmpty(txt_fecha.Text) || string.IsNullOrEmpty(txt_pais.Text))
+=======
+            if (string.IsNullOrEmpty(txt_CUI.Text) || string.IsNullOrEmpty(txt_nombre.Text) || string.IsNullOrEmpty(txt_apellidos.Text) || string.IsNullOrEmpty(txt_nacionalidad.Text) || string.IsNullOrEmpty(txt_sexo.Text) || string.IsNullOrEmpty(dateTimePicker1.Value.ToString()) || string.IsNullOrEmpty(txt_pais.Text))
+>>>>>>> Angel-Solares
             {
                 MessageBox.Show("Debe completar la informacion.");
                 return;
@@ -166,6 +184,13 @@ namespace CapaDiseño
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+            Frm_Cita fcita = new Frm_Cita();
+            fcita.txt_CUI_c.Text = txt_CUI.Text;
+            fcita.txt_nombre_c.Text = txt_nombre.Text;
+            fcita.txt_apellidos_c.Text = txt_apellidos.Text;
+>>>>>>> Angel-Solares
             try
             {
                 OdbcDataReader banco = logic.InsertarSolicitante(lbl_CUI.Text, lbl_nombre.Text, lbl_apellidos.Text, lbl_nacionalidad.Text, lbl_paisN.Text, lbl_sexo.Text, lbl_fechaN.Text, txt_ornato.Text, txt_banco.Text);
@@ -177,6 +202,7 @@ namespace CapaDiseño
                 Console.WriteLine(err.Message);
             }
         }
+<<<<<<< HEAD
 
         private void Button1_Click(object sender, EventArgs e)
         {
@@ -187,6 +213,8 @@ namespace CapaDiseño
         {
             this.Close();
         }
+=======
+>>>>>>> Angel-Solares
     }
     }
 

@@ -28,10 +28,13 @@ namespace CapaDiseño.Procesos
         {
             
         }
+<<<<<<< HEAD
 
         private void Btn_minimizar_Click(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> Angel-Solares
     }
 }

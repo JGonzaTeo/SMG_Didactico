@@ -49,6 +49,7 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+<<<<<<< HEAD
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
@@ -69,3 +70,8 @@ C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-An
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_Login.resources
+=======
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+>>>>>>> Angel-Solares

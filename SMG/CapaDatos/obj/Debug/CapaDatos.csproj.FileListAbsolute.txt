@@ -30,6 +30,7 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csp
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
+<<<<<<< HEAD
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDatos\bin\Debug\CapaDatos.dll
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDatos\bin\Debug\Google.Protobuf.dll
@@ -42,3 +43,5 @@ C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-An
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
+=======
+>>>>>>> Angel-Solares

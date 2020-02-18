@@ -21,6 +21,7 @@ namespace CapaDiseño
 
         public MDIParent1()
         {
+<<<<<<< HEAD
             //this.Location = Screen.PrimaryScreen.WorkingArea.Location;
             //this.Size = Screen.PrimaryScreen.WorkingArea.Size;
             this.Location = new Point(0, 0); //sobra si tienes la posición en el diseño
@@ -30,6 +31,9 @@ namespace CapaDiseño
             lbl_fecha.Text = DateTime.Now.ToString("G");
             lbl_fecha.Size = new Size(this.Width, Screen.PrimaryScreen.WorkingArea.Size.Height);
 
+=======
+            InitializeComponent();
+>>>>>>> Angel-Solares
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -38,7 +42,10 @@ namespace CapaDiseño
             childForm.MdiParent = this;
             childForm.Text = "Ventana " + childFormNumber++;
             childForm.Show();
+<<<<<<< HEAD
            
+=======
+>>>>>>> Angel-Solares
         }
 
         private void OpenFile(object sender, EventArgs e)
@@ -112,6 +119,7 @@ namespace CapaDiseño
 
         private void CerrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
          
            
@@ -122,6 +130,9 @@ namespace CapaDiseño
       
 
 
+=======
+            Dispose();
+>>>>>>> Angel-Solares
         }
 
         private void LocalesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -200,12 +211,15 @@ namespace CapaDiseño
                 capacitacionH.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+<<<<<<< HEAD
 
      
         private void CalendarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
         }
+=======
+>>>>>>> Angel-Solares
     }
     }
 

@@ -64,7 +64,11 @@
             this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_Ayuda.Image")));
+<<<<<<< HEAD
             this.btn_Ayuda.Location = new System.Drawing.Point(1105, 3);
+=======
+            this.btn_Ayuda.Location = new System.Drawing.Point(1103, 3);
+>>>>>>> Angel-Solares
             this.btn_Ayuda.Name = "btn_Ayuda";
             this.btn_Ayuda.Size = new System.Drawing.Size(44, 38);
             this.btn_Ayuda.TabIndex = 3;
@@ -75,7 +79,11 @@
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
+<<<<<<< HEAD
             this.btn_minimizar.Location = new System.Drawing.Point(1055, 3);
+=======
+            this.btn_minimizar.Location = new System.Drawing.Point(1056, 3);
+>>>>>>> Angel-Solares
             this.btn_minimizar.Name = "btn_minimizar";
             this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
             this.btn_minimizar.TabIndex = 2;
@@ -86,7 +94,11 @@
             this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_eliminar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_eliminar.Image = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.Image")));
+<<<<<<< HEAD
             this.btn_eliminar.Location = new System.Drawing.Point(1161, 3);
+=======
+            this.btn_eliminar.Location = new System.Drawing.Point(1153, 3);
+>>>>>>> Angel-Solares
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(44, 38);
             this.btn_eliminar.TabIndex = 1;
@@ -100,7 +112,10 @@
             this.ClientSize = new System.Drawing.Size(1226, 450);
             this.Controls.Add(this.panel1);
             this.Name = "Frm_manDocumentos";
+<<<<<<< HEAD
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+=======
+>>>>>>> Angel-Solares
             this.Text = "Frm_manDocumentos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

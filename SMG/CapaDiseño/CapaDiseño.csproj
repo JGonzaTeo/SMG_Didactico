@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QrCode.Net.0.4.0.0\lib\net45\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+>>>>>>> Angel-Solares
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -44,12 +50,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+<<<<<<< HEAD
     <Compile Include="Frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Login.Designer.cs">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> Angel-Solares
     <Compile Include="Mantenimientos\Frm_manDocumentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,9 +103,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <EmbeddedResource Include="Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> Angel-Solares
     <EmbeddedResource Include="Mantenimientos\Frm_manDocumentos.resx">
       <DependentUpon>Frm_manDocumentos.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,5 +142,11 @@
       <Name>CapaLogica</Name>
     </ProjectReference>
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+>>>>>>> Angel-Solares
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

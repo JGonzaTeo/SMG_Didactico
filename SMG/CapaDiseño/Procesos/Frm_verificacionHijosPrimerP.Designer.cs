@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_verificacionHijosPrimerP));
             this.Pnl_titulo = new System.Windows.Forms.Panel();
             this.btn_Ayuda = new System.Windows.Forms.Button();
@@ -39,6 +40,20 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+=======
+            this.Pnl_titulo = new System.Windows.Forms.Panel();
+            this.lbl_tituloFrm = new System.Windows.Forms.Label();
+            this.btn_minimizar = new System.Windows.Forms.Button();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_adjuntar = new System.Windows.Forms.TextBox();
+            this.btn_adjuntar = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txt_cuimadre = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txt_cuipadre = new System.Windows.Forms.TextBox();
+>>>>>>> Angel-Solares
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -49,7 +64,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txt_pais = new System.Windows.Forms.TextBox();
             this.lbl_fechaS = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.txt_fecha = new System.Windows.Forms.TextBox();
+=======
+>>>>>>> Angel-Solares
             this.lbl_sexoS = new System.Windows.Forms.Label();
             this.txt_sexo = new System.Windows.Forms.TextBox();
             this.lbl_nacionalidadS = new System.Windows.Forms.Label();
@@ -79,6 +97,10 @@
             this.btn_banco = new System.Windows.Forms.Button();
             this.txt_banco = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+=======
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+>>>>>>> Angel-Solares
             this.Pnl_titulo.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -87,16 +109,23 @@
             // Pnl_titulo
             // 
             this.Pnl_titulo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+<<<<<<< HEAD
             this.Pnl_titulo.Controls.Add(this.btn_Ayuda);
             this.Pnl_titulo.Controls.Add(this.btn_minimizar);
             this.Pnl_titulo.Controls.Add(this.btn_eliminar);
             this.Pnl_titulo.Controls.Add(this.lbl_tituloFrm);
+=======
+            this.Pnl_titulo.Controls.Add(this.lbl_tituloFrm);
+            this.Pnl_titulo.Controls.Add(this.btn_minimizar);
+            this.Pnl_titulo.Controls.Add(this.btn_salir);
+>>>>>>> Angel-Solares
             this.Pnl_titulo.Location = new System.Drawing.Point(1, 0);
             this.Pnl_titulo.Margin = new System.Windows.Forms.Padding(4);
             this.Pnl_titulo.Name = "Pnl_titulo";
             this.Pnl_titulo.Size = new System.Drawing.Size(1533, 59);
             this.Pnl_titulo.TabIndex = 1;
             // 
+<<<<<<< HEAD
             // btn_Ayuda
             // 
             this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -150,6 +179,58 @@
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.textBox1);
+=======
+            // lbl_tituloFrm
+            // 
+            this.lbl_tituloFrm.AutoSize = true;
+            this.lbl_tituloFrm.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tituloFrm.Location = new System.Drawing.Point(17, 11);
+            this.lbl_tituloFrm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_tituloFrm.Name = "lbl_tituloFrm";
+            this.lbl_tituloFrm.Size = new System.Drawing.Size(450, 28);
+            this.lbl_tituloFrm.TabIndex = 3;
+            this.lbl_tituloFrm.Text = "Validacion Primer Pasaporte Menores";
+            // 
+            // btn_minimizar
+            // 
+            this.btn_minimizar.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_minimizar.Location = new System.Drawing.Point(1383, 11);
+            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_minimizar.Name = "btn_minimizar";
+            this.btn_minimizar.Size = new System.Drawing.Size(45, 34);
+            this.btn_minimizar.TabIndex = 2;
+            this.btn_minimizar.Text = "mini";
+            this.btn_minimizar.UseVisualStyleBackColor = false;
+            this.btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
+            // 
+            // btn_salir
+            // 
+            this.btn_salir.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btn_salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_salir.Location = new System.Drawing.Point(1472, 11);
+            this.btn_salir.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(45, 34);
+            this.btn_salir.TabIndex = 1;
+            this.btn_salir.Text = "salir";
+            this.btn_salir.UseVisualStyleBackColor = false;
+            this.btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.txt_adjuntar);
+            this.panel1.Controls.Add(this.btn_adjuntar);
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.txt_cuimadre);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.txt_cuipadre);
+>>>>>>> Angel-Solares
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label5);
@@ -160,7 +241,10 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txt_pais);
             this.panel1.Controls.Add(this.lbl_fechaS);
+<<<<<<< HEAD
             this.panel1.Controls.Add(this.txt_fecha);
+=======
+>>>>>>> Angel-Solares
             this.panel1.Controls.Add(this.lbl_sexoS);
             this.panel1.Controls.Add(this.txt_sexo);
             this.panel1.Controls.Add(this.lbl_nacionalidadS);
@@ -184,6 +268,7 @@
             this.panel1.Location = new System.Drawing.Point(23, 82);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
+<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(1499, 495);
             this.panel1.TabIndex = 12;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
@@ -196,10 +281,58 @@
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(89, 20);
+=======
+            this.panel1.Size = new System.Drawing.Size(1499, 527);
+            this.panel1.TabIndex = 12;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
+            // 
+            // txt_adjuntar
+            // 
+            this.txt_adjuntar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_adjuntar.Location = new System.Drawing.Point(317, 427);
+            this.txt_adjuntar.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_adjuntar.Name = "txt_adjuntar";
+            this.txt_adjuntar.Size = new System.Drawing.Size(182, 27);
+            this.txt_adjuntar.TabIndex = 39;
+            // 
+            // btn_adjuntar
+            // 
+            this.btn_adjuntar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_adjuntar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_adjuntar.Location = new System.Drawing.Point(507, 429);
+            this.btn_adjuntar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_adjuntar.Name = "btn_adjuntar";
+            this.btn_adjuntar.Size = new System.Drawing.Size(123, 28);
+            this.btn_adjuntar.TabIndex = 38;
+            this.btn_adjuntar.Text = "Adjuntar";
+            this.btn_adjuntar.UseVisualStyleBackColor = true;
+            this.btn_adjuntar.Click += new System.EventHandler(this.Btn_adjuntar_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(46, 433);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(142, 21);
+            this.label16.TabIndex = 37;
+            this.label16.Text = "Carta de Poder";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(46, 382);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(103, 21);
+>>>>>>> Angel-Solares
             this.label17.TabIndex = 35;
             this.label17.Text = "CUI Madre";
             this.label17.Click += new System.EventHandler(this.Label17_Click);
             // 
+<<<<<<< HEAD
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -209,10 +342,22 @@
             this.textBox2.Size = new System.Drawing.Size(313, 26);
             this.textBox2.TabIndex = 36;
             this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
+=======
+            // txt_cuimadre
+            // 
+            this.txt_cuimadre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cuimadre.Location = new System.Drawing.Point(317, 376);
+            this.txt_cuimadre.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_cuimadre.Name = "txt_cuimadre";
+            this.txt_cuimadre.Size = new System.Drawing.Size(313, 27);
+            this.txt_cuimadre.TabIndex = 36;
+            this.txt_cuimadre.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
+>>>>>>> Angel-Solares
             // 
             // label15
             // 
             this.label15.AutoSize = true;
+<<<<<<< HEAD
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(46, 338);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -229,107 +374,198 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(313, 26);
             this.textBox1.TabIndex = 34;
+=======
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(46, 338);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(96, 21);
+            this.label15.TabIndex = 33;
+            this.label15.Text = "CUI Padre";
+            // 
+            // txt_cuipadre
+            // 
+            this.txt_cuipadre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cuipadre.Location = new System.Drawing.Point(317, 332);
+            this.txt_cuipadre.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_cuipadre.Name = "txt_cuipadre";
+            this.txt_cuipadre.Size = new System.Drawing.Size(313, 27);
+            this.txt_cuipadre.TabIndex = 34;
+>>>>>>> Angel-Solares
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(720, 290);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(214, 20);
+=======
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(720, 290);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(235, 21);
+>>>>>>> Angel-Solares
             this.label1.TabIndex = 32;
             this.label1.Text = "Pais nacimiento solicitante:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+<<<<<<< HEAD
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(720, 252);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(227, 20);
+=======
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(720, 252);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(255, 21);
+>>>>>>> Angel-Solares
             this.label3.TabIndex = 31;
             this.label3.Text = "Fecha nacimiento solicitante:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+<<<<<<< HEAD
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(720, 215);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(132, 20);
+=======
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(720, 215);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(143, 21);
+>>>>>>> Angel-Solares
             this.label5.TabIndex = 30;
             this.label5.Text = "Sexo solicitante:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+<<<<<<< HEAD
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(720, 178);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(191, 20);
+=======
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(720, 178);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(219, 21);
+>>>>>>> Angel-Solares
             this.label6.TabIndex = 29;
             this.label6.Text = "Nacionalidad solicitante:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+<<<<<<< HEAD
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(720, 140);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(163, 20);
+=======
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(720, 140);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(180, 21);
+>>>>>>> Angel-Solares
             this.label7.TabIndex = 28;
             this.label7.Text = "Apellidos solicitante:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+<<<<<<< HEAD
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(720, 106);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(163, 20);
+=======
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(720, 106);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(179, 21);
+>>>>>>> Angel-Solares
             this.label8.TabIndex = 27;
             this.label8.Text = "Nombres solicitante:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+<<<<<<< HEAD
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(720, 70);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(123, 20);
+=======
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(720, 70);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(136, 21);
+>>>>>>> Angel-Solares
             this.label9.TabIndex = 26;
             this.label9.Text = "CUI solicitante:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+<<<<<<< HEAD
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(45, 294);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(214, 20);
+=======
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(45, 294);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(235, 21);
+>>>>>>> Angel-Solares
             this.label4.TabIndex = 24;
             this.label4.Text = "Pais nacimiento solicitante:";
             // 
             // txt_pais
             // 
+<<<<<<< HEAD
             this.txt_pais.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_pais.Location = new System.Drawing.Point(316, 288);
             this.txt_pais.Margin = new System.Windows.Forms.Padding(4);
             this.txt_pais.Name = "txt_pais";
             this.txt_pais.Size = new System.Drawing.Size(313, 26);
+=======
+            this.txt_pais.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pais.Location = new System.Drawing.Point(316, 288);
+            this.txt_pais.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_pais.Name = "txt_pais";
+            this.txt_pais.Size = new System.Drawing.Size(313, 27);
+>>>>>>> Angel-Solares
             this.txt_pais.TabIndex = 25;
             // 
             // lbl_fechaS
             // 
             this.lbl_fechaS.AutoSize = true;
+<<<<<<< HEAD
             this.lbl_fechaS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fechaS.Location = new System.Drawing.Point(45, 256);
             this.lbl_fechaS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -355,115 +591,217 @@
             this.lbl_sexoS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_sexoS.Name = "lbl_sexoS";
             this.lbl_sexoS.Size = new System.Drawing.Size(132, 20);
+=======
+            this.lbl_fechaS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fechaS.Location = new System.Drawing.Point(45, 256);
+            this.lbl_fechaS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_fechaS.Name = "lbl_fechaS";
+            this.lbl_fechaS.Size = new System.Drawing.Size(255, 21);
+            this.lbl_fechaS.TabIndex = 22;
+            this.lbl_fechaS.Text = "Fecha nacimiento solicitante:";
+            // 
+            // lbl_sexoS
+            // 
+            this.lbl_sexoS.AutoSize = true;
+            this.lbl_sexoS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sexoS.Location = new System.Drawing.Point(45, 219);
+            this.lbl_sexoS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_sexoS.Name = "lbl_sexoS";
+            this.lbl_sexoS.Size = new System.Drawing.Size(143, 21);
+>>>>>>> Angel-Solares
             this.lbl_sexoS.TabIndex = 20;
             this.lbl_sexoS.Text = "Sexo solicitante:";
             // 
             // txt_sexo
             // 
+<<<<<<< HEAD
             this.txt_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_sexo.Location = new System.Drawing.Point(316, 213);
             this.txt_sexo.Margin = new System.Windows.Forms.Padding(4);
             this.txt_sexo.Name = "txt_sexo";
             this.txt_sexo.Size = new System.Drawing.Size(313, 26);
+=======
+            this.txt_sexo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_sexo.Location = new System.Drawing.Point(316, 213);
+            this.txt_sexo.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_sexo.Name = "txt_sexo";
+            this.txt_sexo.Size = new System.Drawing.Size(313, 27);
+>>>>>>> Angel-Solares
             this.txt_sexo.TabIndex = 21;
             // 
             // lbl_nacionalidadS
             // 
             this.lbl_nacionalidadS.AutoSize = true;
+<<<<<<< HEAD
             this.lbl_nacionalidadS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nacionalidadS.Location = new System.Drawing.Point(45, 182);
             this.lbl_nacionalidadS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_nacionalidadS.Name = "lbl_nacionalidadS";
             this.lbl_nacionalidadS.Size = new System.Drawing.Size(191, 20);
+=======
+            this.lbl_nacionalidadS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nacionalidadS.Location = new System.Drawing.Point(45, 182);
+            this.lbl_nacionalidadS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_nacionalidadS.Name = "lbl_nacionalidadS";
+            this.lbl_nacionalidadS.Size = new System.Drawing.Size(219, 21);
+>>>>>>> Angel-Solares
             this.lbl_nacionalidadS.TabIndex = 18;
             this.lbl_nacionalidadS.Text = "Nacionalidad solicitante:";
             // 
             // txt_nacionalidad
             // 
+<<<<<<< HEAD
             this.txt_nacionalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nacionalidad.Location = new System.Drawing.Point(316, 176);
             this.txt_nacionalidad.Margin = new System.Windows.Forms.Padding(4);
             this.txt_nacionalidad.Name = "txt_nacionalidad";
             this.txt_nacionalidad.Size = new System.Drawing.Size(313, 26);
+=======
+            this.txt_nacionalidad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nacionalidad.Location = new System.Drawing.Point(316, 176);
+            this.txt_nacionalidad.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_nacionalidad.Name = "txt_nacionalidad";
+            this.txt_nacionalidad.Size = new System.Drawing.Size(313, 27);
+>>>>>>> Angel-Solares
             this.txt_nacionalidad.TabIndex = 19;
             // 
             // lbl_apellidosS
             // 
             this.lbl_apellidosS.AutoSize = true;
+<<<<<<< HEAD
             this.lbl_apellidosS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_apellidosS.Location = new System.Drawing.Point(45, 144);
             this.lbl_apellidosS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_apellidosS.Name = "lbl_apellidosS";
             this.lbl_apellidosS.Size = new System.Drawing.Size(163, 20);
+=======
+            this.lbl_apellidosS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_apellidosS.Location = new System.Drawing.Point(45, 144);
+            this.lbl_apellidosS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_apellidosS.Name = "lbl_apellidosS";
+            this.lbl_apellidosS.Size = new System.Drawing.Size(180, 21);
+>>>>>>> Angel-Solares
             this.lbl_apellidosS.TabIndex = 16;
             this.lbl_apellidosS.Text = "Apellidos solicitante:";
             // 
             // txt_apellidos
             // 
+<<<<<<< HEAD
             this.txt_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_apellidos.Location = new System.Drawing.Point(316, 138);
             this.txt_apellidos.Margin = new System.Windows.Forms.Padding(4);
             this.txt_apellidos.Name = "txt_apellidos";
             this.txt_apellidos.Size = new System.Drawing.Size(313, 26);
+=======
+            this.txt_apellidos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_apellidos.Location = new System.Drawing.Point(316, 138);
+            this.txt_apellidos.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_apellidos.Name = "txt_apellidos";
+            this.txt_apellidos.Size = new System.Drawing.Size(313, 27);
+>>>>>>> Angel-Solares
             this.txt_apellidos.TabIndex = 17;
             // 
             // lbl_nombreS
             // 
             this.lbl_nombreS.AutoSize = true;
+<<<<<<< HEAD
             this.lbl_nombreS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nombreS.Location = new System.Drawing.Point(45, 110);
             this.lbl_nombreS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_nombreS.Name = "lbl_nombreS";
             this.lbl_nombreS.Size = new System.Drawing.Size(163, 20);
+=======
+            this.lbl_nombreS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombreS.Location = new System.Drawing.Point(45, 110);
+            this.lbl_nombreS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_nombreS.Name = "lbl_nombreS";
+            this.lbl_nombreS.Size = new System.Drawing.Size(179, 21);
+>>>>>>> Angel-Solares
             this.lbl_nombreS.TabIndex = 14;
             this.lbl_nombreS.Text = "Nombres solicitante:";
             // 
             // txt_nombre
             // 
+<<<<<<< HEAD
             this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombre.Location = new System.Drawing.Point(316, 103);
             this.txt_nombre.Margin = new System.Windows.Forms.Padding(4);
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(313, 26);
+=======
+            this.txt_nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nombre.Location = new System.Drawing.Point(316, 103);
+            this.txt_nombre.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(313, 27);
+>>>>>>> Angel-Solares
             this.txt_nombre.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+<<<<<<< HEAD
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(44, 17);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(182, 25);
+=======
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(44, 17);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(182, 23);
+>>>>>>> Angel-Solares
             this.label2.TabIndex = 11;
             this.label2.Text = "Datos entregados";
             // 
             // lbl_TituloWS
             // 
             this.lbl_TituloWS.AutoSize = true;
+<<<<<<< HEAD
             this.lbl_TituloWS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TituloWS.Location = new System.Drawing.Point(719, 17);
             this.lbl_TituloWS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_TituloWS.Name = "lbl_TituloWS";
             this.lbl_TituloWS.Size = new System.Drawing.Size(187, 25);
+=======
+            this.lbl_TituloWS.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_TituloWS.Location = new System.Drawing.Point(719, 17);
+            this.lbl_TituloWS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_TituloWS.Name = "lbl_TituloWS";
+            this.lbl_TituloWS.Size = new System.Drawing.Size(188, 23);
+>>>>>>> Angel-Solares
             this.lbl_TituloWS.TabIndex = 4;
             this.lbl_TituloWS.Text = "Consulta de datos";
             // 
             // lbl_cuiS
             // 
             this.lbl_cuiS.AutoSize = true;
+<<<<<<< HEAD
             this.lbl_cuiS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_cuiS.Location = new System.Drawing.Point(45, 74);
             this.lbl_cuiS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_cuiS.Name = "lbl_cuiS";
             this.lbl_cuiS.Size = new System.Drawing.Size(123, 20);
+=======
+            this.lbl_cuiS.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cuiS.Location = new System.Drawing.Point(45, 74);
+            this.lbl_cuiS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_cuiS.Name = "lbl_cuiS";
+            this.lbl_cuiS.Size = new System.Drawing.Size(136, 21);
+>>>>>>> Angel-Solares
             this.lbl_cuiS.TabIndex = 2;
             this.lbl_cuiS.Text = "CUI solicitante:";
             // 
             // lbl_paisN
             // 
             this.lbl_paisN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.lbl_paisN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.lbl_paisN.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.lbl_paisN.Location = new System.Drawing.Point(997, 289);
             this.lbl_paisN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_paisN.Name = "lbl_paisN";
@@ -473,8 +811,13 @@
             // btn_buscar
             // 
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+<<<<<<< HEAD
             this.btn_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buscar.Location = new System.Drawing.Point(48, 428);
+=======
+            this.btn_buscar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buscar.Location = new System.Drawing.Point(48, 481);
+>>>>>>> Angel-Solares
             this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(581, 28);
@@ -486,7 +829,11 @@
             // lbl_fechaN
             // 
             this.lbl_fechaN.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.lbl_fechaN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.lbl_fechaN.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.lbl_fechaN.Location = new System.Drawing.Point(997, 251);
             this.lbl_fechaN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_fechaN.Name = "lbl_fechaN";
@@ -495,17 +842,29 @@
             // 
             // txt_CUI
             // 
+<<<<<<< HEAD
             this.txt_CUI.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_CUI.Location = new System.Drawing.Point(316, 70);
             this.txt_CUI.Margin = new System.Windows.Forms.Padding(4);
             this.txt_CUI.Name = "txt_CUI";
             this.txt_CUI.Size = new System.Drawing.Size(313, 26);
+=======
+            this.txt_CUI.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_CUI.Location = new System.Drawing.Point(316, 70);
+            this.txt_CUI.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_CUI.Name = "txt_CUI";
+            this.txt_CUI.Size = new System.Drawing.Size(313, 27);
+>>>>>>> Angel-Solares
             this.txt_CUI.TabIndex = 3;
             // 
             // lbl_sexo
             // 
             this.lbl_sexo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.lbl_sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.lbl_sexo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.lbl_sexo.Location = new System.Drawing.Point(997, 213);
             this.lbl_sexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_sexo.Name = "lbl_sexo";
@@ -515,7 +874,11 @@
             // lbl_CUI
             // 
             this.lbl_CUI.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.lbl_CUI.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.lbl_CUI.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.lbl_CUI.Location = new System.Drawing.Point(997, 68);
             this.lbl_CUI.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_CUI.Name = "lbl_CUI";
@@ -525,7 +888,11 @@
             // lbl_nacionalidad
             // 
             this.lbl_nacionalidad.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.lbl_nacionalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.lbl_nacionalidad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.lbl_nacionalidad.Location = new System.Drawing.Point(997, 177);
             this.lbl_nacionalidad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_nacionalidad.Name = "lbl_nacionalidad";
@@ -535,7 +902,11 @@
             // lbl_nombre
             // 
             this.lbl_nombre.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.lbl_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.lbl_nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.lbl_nombre.Location = new System.Drawing.Point(997, 103);
             this.lbl_nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_nombre.Name = "lbl_nombre";
@@ -545,7 +916,11 @@
             // lbl_apellidos
             // 
             this.lbl_apellidos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.lbl_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.lbl_apellidos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.lbl_apellidos.Location = new System.Drawing.Point(997, 138);
             this.lbl_apellidos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_apellidos.Name = "lbl_apellidos";
@@ -555,7 +930,11 @@
             // btn_guardar
             // 
             this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+<<<<<<< HEAD
             this.btn_guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.btn_guardar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.btn_guardar.Location = new System.Drawing.Point(938, 813);
             this.btn_guardar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_guardar.Name = "btn_guardar";
@@ -563,6 +942,10 @@
             this.btn_guardar.TabIndex = 34;
             this.btn_guardar.Text = "Guardar";
             this.btn_guardar.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            this.btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
+>>>>>>> Angel-Solares
             // 
             // panel2
             // 
@@ -574,7 +957,11 @@
             this.panel2.Controls.Add(this.btn_banco);
             this.panel2.Controls.Add(this.txt_banco);
             this.panel2.Controls.Add(this.label14);
+<<<<<<< HEAD
             this.panel2.Location = new System.Drawing.Point(13, 605);
+=======
+            this.panel2.Location = new System.Drawing.Point(13, 617);
+>>>>>>> Angel-Solares
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1499, 188);
@@ -583,51 +970,87 @@
             // label10
             // 
             this.label10.AutoSize = true;
+<<<<<<< HEAD
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(711, 85);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(62, 20);
+=======
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(711, 85);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(66, 21);
+>>>>>>> Angel-Solares
             this.label10.TabIndex = 33;
             this.label10.Text = "Status:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+<<<<<<< HEAD
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(35, 32);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(180, 24);
+=======
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(35, 32);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(179, 23);
+>>>>>>> Angel-Solares
             this.label11.TabIndex = 32;
             this.label11.Text = "# Boleta de Banco";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
+<<<<<<< HEAD
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(710, 32);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(177, 24);
+=======
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(710, 32);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(178, 23);
+>>>>>>> Angel-Solares
             this.label12.TabIndex = 30;
             this.label12.Text = "Consulta de datos";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+<<<<<<< HEAD
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(37, 89);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(217, 20);
+=======
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(37, 89);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(251, 21);
+>>>>>>> Angel-Solares
             this.label13.TabIndex = 28;
             this.label13.Text = "Numero de boleta de Banco";
             // 
             // btn_banco
             // 
             this.btn_banco.FlatStyle = System.Windows.Forms.FlatStyle.System;
+<<<<<<< HEAD
             this.btn_banco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.btn_banco.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.btn_banco.Location = new System.Drawing.Point(41, 132);
             this.btn_banco.Margin = new System.Windows.Forms.Padding(4);
             this.btn_banco.Name = "btn_banco";
@@ -639,23 +1062,45 @@
             // 
             // txt_banco
             // 
+<<<<<<< HEAD
             this.txt_banco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_banco.Location = new System.Drawing.Point(307, 85);
             this.txt_banco.Margin = new System.Windows.Forms.Padding(4);
             this.txt_banco.Name = "txt_banco";
             this.txt_banco.Size = new System.Drawing.Size(313, 26);
+=======
+            this.txt_banco.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_banco.Location = new System.Drawing.Point(307, 85);
+            this.txt_banco.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_banco.Name = "txt_banco";
+            this.txt_banco.Size = new System.Drawing.Size(313, 27);
+>>>>>>> Angel-Solares
             this.txt_banco.TabIndex = 29;
             // 
             // label14
             // 
             this.label14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+<<<<<<< HEAD
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+=======
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Angel-Solares
             this.label14.Location = new System.Drawing.Point(989, 82);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(335, 23);
             this.label14.TabIndex = 31;
             // 
+<<<<<<< HEAD
+=======
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(316, 252);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(313, 22);
+            this.dateTimePicker1.TabIndex = 40;
+            // 
+>>>>>>> Angel-Solares
             // Frm_verificacionHijosPrimerP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -669,6 +1114,10 @@
             this.Name = "Frm_verificacionHijosPrimerP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_verificacionHijosPrimerP";
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this.Frm_verificacionHijosPrimerP_Load);
+>>>>>>> Angel-Solares
             this.Pnl_titulo.ResumeLayout(false);
             this.Pnl_titulo.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -683,6 +1132,11 @@
 
         private System.Windows.Forms.Panel Pnl_titulo;
         private System.Windows.Forms.Label lbl_tituloFrm;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button btn_minimizar;
+        private System.Windows.Forms.Button btn_salir;
+>>>>>>> Angel-Solares
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
@@ -694,7 +1148,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_pais;
         private System.Windows.Forms.Label lbl_fechaS;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox txt_fecha;
+=======
+>>>>>>> Angel-Solares
         private System.Windows.Forms.Label lbl_sexoS;
         private System.Windows.Forms.TextBox txt_sexo;
         private System.Windows.Forms.Label lbl_nacionalidadS;
@@ -725,11 +1182,21 @@
         private System.Windows.Forms.TextBox txt_banco;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label17;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btn_Ayuda;
         private System.Windows.Forms.Button btn_minimizar;
         private System.Windows.Forms.Button btn_eliminar;
+=======
+        private System.Windows.Forms.TextBox txt_cuimadre;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox txt_cuipadre;
+        private System.Windows.Forms.Button btn_adjuntar;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txt_adjuntar;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+>>>>>>> Angel-Solares
     }
 }

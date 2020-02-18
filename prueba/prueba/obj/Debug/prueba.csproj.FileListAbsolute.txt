@@ -48,6 +48,7 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.pdb
+<<<<<<< HEAD
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\prueba.exe.config
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\prueba.exe
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\prueba.pdb
@@ -65,3 +66,8 @@ C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-An
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\prueb\Desktop\Ingenieria de software\versionamientosmg\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.pdb
+=======
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.xml
+>>>>>>> Angel-Solares

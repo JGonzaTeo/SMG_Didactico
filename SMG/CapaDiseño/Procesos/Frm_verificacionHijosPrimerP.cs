@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaLogica;
 using System.Data.Odbc;
+<<<<<<< HEAD
+=======
+using System.Diagnostics;
+>>>>>>> Angel-Solares
 
 namespace CapaDiseño.Procesos
 {
@@ -20,9 +24,18 @@ namespace CapaDiseño.Procesos
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         void verificarDatos()
         {
             if (txt_CUI.Text == lbl_CUI.Text && txt_nombre.Text == lbl_nombre.Text && txt_apellidos.Text == lbl_apellidos.Text && txt_nacionalidad.Text == lbl_nacionalidad.Text && txt_sexo.Text == lbl_sexo.Text && txt_fecha.Text == lbl_fechaN.Text && txt_pais.Text == lbl_paisN.Text)
+=======
+
+
+        void verificarDatos()
+        {
+            string fecha = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+            if (txt_CUI.Text == lbl_CUI.Text && txt_nombre.Text == lbl_nombre.Text && txt_apellidos.Text == lbl_apellidos.Text && txt_nacionalidad.Text == lbl_nacionalidad.Text && txt_sexo.Text == lbl_sexo.Text && fecha == lbl_fechaN.Text && txt_pais.Text == lbl_paisN.Text)
+>>>>>>> Angel-Solares
             {
                 MessageBox.Show("Datos verificados.");
                 txt_CUI.Enabled = false;
@@ -30,8 +43,16 @@ namespace CapaDiseño.Procesos
                 txt_apellidos.Enabled = false;
                 txt_nacionalidad.Enabled = false;
                 txt_sexo.Enabled = false;
+<<<<<<< HEAD
                 txt_fecha.Enabled = false;
                 txt_pais.Enabled = false;
+=======
+                txt_pais.Enabled = false;
+                txt_cuipadre.Enabled = false;
+                txt_cuimadre.Enabled = false;
+                dateTimePicker1.Enabled = false;
+                txt_adjuntar.Enabled = false;
+>>>>>>> Angel-Solares
 
                 txt_banco.Enabled = true;
                 btn_banco.Enabled = true;
@@ -68,7 +89,11 @@ namespace CapaDiseño.Procesos
         private void Btn_buscar_Click(object sender, EventArgs e)
         {
             string campo = txt_CUI.Text;
+<<<<<<< HEAD
             if (string.IsNullOrEmpty(txt_CUI.Text) || string.IsNullOrEmpty(txt_nombre.Text) || string.IsNullOrEmpty(txt_apellidos.Text) || string.IsNullOrEmpty(txt_nacionalidad.Text) || string.IsNullOrEmpty(txt_sexo.Text) || string.IsNullOrEmpty(txt_fecha.Text) || string.IsNullOrEmpty(txt_pais.Text))
+=======
+            if (string.IsNullOrEmpty(txt_CUI.Text) || string.IsNullOrEmpty(txt_nombre.Text) || string.IsNullOrEmpty(txt_apellidos.Text) || string.IsNullOrEmpty(txt_nacionalidad.Text) || string.IsNullOrEmpty(txt_sexo.Text) || string.IsNullOrEmpty(dateTimePicker1.Value.ToString()) || string.IsNullOrEmpty(txt_pais.Text))
+>>>>>>> Angel-Solares
             {
                 MessageBox.Show("Debe completar la informacion.");
                 return;
@@ -126,6 +151,7 @@ namespace CapaDiseño.Procesos
             }
         }
 
+<<<<<<< HEAD
         private void Btn_minimizar_Click_1(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -134,6 +160,45 @@ namespace CapaDiseño.Procesos
         private void Btn_eliminar_Click(object sender, EventArgs e)
         {
             this.Close();
+=======
+        private void Btn_guardar_Click(object sender, EventArgs e)
+        {
+            Frm_Cita fcita = new Frm_Cita();
+            fcita.txt_CUI_c.Text = txt_CUI.Text;
+            fcita.txt_nombre_c.Text = txt_nombre.Text;
+            fcita.txt_apellidos_c.Text = txt_apellidos.Text;
+
+
+            try
+            {
+                OdbcDataReader hijo = logic.InsertarSolicitanteH(lbl_CUI.Text, lbl_nombre.Text, lbl_apellidos.Text, lbl_nacionalidad.Text, lbl_paisN.Text, lbl_sexo.Text, lbl_fechaN.Text, txt_cuipadre.Text,txt_cuimadre.Text,txt_adjuntar.Text, txt_banco.Text);
+                MessageBox.Show("Datos registrados.");
+                this.Close();
+                fcita.Show();
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+            }
+        }
+
+        private void Frm_verificacionHijosPrimerP_Load(object sender, EventArgs e)
+        {
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.CustomFormat = "yyyy/MM/dd";
+        }
+
+        private void Btn_adjuntar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog buscar = new OpenFileDialog();
+
+            if (buscar.ShowDialog() == DialogResult.OK)
+            {
+                txt_adjuntar.Text = buscar.FileName;
+            }
+
+            txt_adjuntar.Enabled = false;
+>>>>>>> Angel-Solares
         }
     }
 }

@@ -17,8 +17,12 @@ namespace prueba
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Frm_Login());
             //Application.Run(new MDIParent1());
+=======
+            Application.Run(new MDIParent1());
+>>>>>>> Angel-Solares
         }
     }
 }
