@@ -31,3 +31,42 @@ C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.Generat
 C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
 C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\ivan5\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\prueba.exe.config
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\prueba.exe
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\prueba.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\CapaDiseño.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\CapaDiseño.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.Form1.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.Properties.Resources.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.GenerateResource.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.exe
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\prueba.exe.config
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\prueba.exe
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\prueba.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.Form1.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.Properties.Resources.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.csproj.GenerateResource.cache
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.exe
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\prueba\prueba\obj\Debug\prueba.pdb

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QrCode.Net.0.4.0.0\lib\net45\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -56,11 +59,29 @@
     <Compile Include="MDIParent1.Designer.cs">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\Frm_Cita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_Cita.Designer.cs">
+      <DependentUpon>Frm_Cita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Frm_Herramientas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_Herramientas.Designer.cs">
+      <DependentUpon>Frm_Herramientas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\Frm_noticias.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Procesos\Frm_noticias.Designer.cs">
       <DependentUpon>Frm_noticias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Frm_verificacionHijosPrimerP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_verificacionHijosPrimerP.Designer.cs">
+      <DependentUpon>Frm_verificacionHijosPrimerP.cs</DependentUpon>
     </Compile>
     <Compile Include="Procesos\Frm_verificacionPrimerP.cs">
       <SubType>Form</SubType>
@@ -82,8 +103,17 @@
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_Cita.resx">
+      <DependentUpon>Frm_Cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_Herramientas.resx">
+      <DependentUpon>Frm_Herramientas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_noticias.resx">
       <DependentUpon>Frm_noticias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_verificacionHijosPrimerP.resx">
+      <DependentUpon>Frm_verificacionHijosPrimerP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_verificacionPrimerP.resx">
       <DependentUpon>Frm_verificacionPrimerP.cs</DependentUpon>
@@ -102,6 +132,9 @@
       <Project>{b24840d4-af5b-42db-919d-5bb946230cf1}</Project>
       <Name>CapaLogica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

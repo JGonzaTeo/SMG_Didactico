@@ -66,13 +66,11 @@
             this.localesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.internacionalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.documentosLegalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calendarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.botonDePanicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.verificacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adultosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -361,39 +359,10 @@
             // 
             // toolsMenu
             // 
-            this.toolsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mantenimientosToolStripMenuItem,
-            this.calendarioToolStripMenuItem,
-            this.botonDePanicoToolStripMenuItem});
             this.toolsMenu.Name = "toolsMenu";
             this.toolsMenu.Size = new System.Drawing.Size(90, 20);
             this.toolsMenu.Text = "&Herramientas";
-            // 
-            // mantenimientosToolStripMenuItem
-            // 
-            this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.documentosLegalesToolStripMenuItem});
-            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
-            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
-            // 
-            // documentosLegalesToolStripMenuItem
-            // 
-            this.documentosLegalesToolStripMenuItem.Name = "documentosLegalesToolStripMenuItem";
-            this.documentosLegalesToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.documentosLegalesToolStripMenuItem.Text = "Documentos legales";
-            // 
-            // calendarioToolStripMenuItem
-            // 
-            this.calendarioToolStripMenuItem.Name = "calendarioToolStripMenuItem";
-            this.calendarioToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.calendarioToolStripMenuItem.Text = "Calendario";
-            // 
-            // botonDePanicoToolStripMenuItem
-            // 
-            this.botonDePanicoToolStripMenuItem.Name = "botonDePanicoToolStripMenuItem";
-            this.botonDePanicoToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.botonDePanicoToolStripMenuItem.Text = "Boton de panico";
+            this.toolsMenu.Click += new System.EventHandler(this.toolsMenu_Click);
             // 
             // cerrarToolStripMenuItem
             // 
@@ -422,10 +391,27 @@
             // 
             // verificacionToolStripMenuItem
             // 
+            this.verificacionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adultosToolStripMenuItem,
+            this.menoresToolStripMenuItem});
             this.verificacionToolStripMenuItem.Name = "verificacionToolStripMenuItem";
             this.verificacionToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.verificacionToolStripMenuItem.Text = "Verificacion";
             this.verificacionToolStripMenuItem.Click += new System.EventHandler(this.verificacionToolStripMenuItem_Click);
+            // 
+            // adultosToolStripMenuItem
+            // 
+            this.adultosToolStripMenuItem.Name = "adultosToolStripMenuItem";
+            this.adultosToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.adultosToolStripMenuItem.Text = "Adultos";
+            this.adultosToolStripMenuItem.Click += new System.EventHandler(this.AdultosToolStripMenuItem_Click);
+            // 
+            // menoresToolStripMenuItem
+            // 
+            this.menoresToolStripMenuItem.Name = "menoresToolStripMenuItem";
+            this.menoresToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.menoresToolStripMenuItem.Text = "Menores";
+            this.menoresToolStripMenuItem.Click += new System.EventHandler(this.MenoresToolStripMenuItem_Click);
             // 
             // MDIParent1
             // 
@@ -433,7 +419,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(923, 857);
+            this.ClientSize = new System.Drawing.Size(923, 609);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.menuStrip);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -489,11 +475,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolsMenu;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip;
-        private System.Windows.Forms.ToolStripMenuItem mantenimientosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem documentosLegalesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem calendarioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem botonDePanicoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verificacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adultosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menoresToolStripMenuItem;
     }
 }
 
