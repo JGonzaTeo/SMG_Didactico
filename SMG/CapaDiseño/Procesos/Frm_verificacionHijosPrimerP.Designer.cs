@@ -33,10 +33,13 @@
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_adjuntar = new System.Windows.Forms.TextBox();
+            this.btn_adjuntar = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_cuimadre = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_cuipadre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,7 +50,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txt_pais = new System.Windows.Forms.TextBox();
             this.lbl_fechaS = new System.Windows.Forms.Label();
-            this.txt_fecha = new System.Windows.Forms.TextBox();
             this.lbl_sexoS = new System.Windows.Forms.Label();
             this.txt_sexo = new System.Windows.Forms.TextBox();
             this.lbl_nacionalidadS = new System.Windows.Forms.Label();
@@ -77,6 +79,7 @@
             this.btn_banco = new System.Windows.Forms.Button();
             this.txt_banco = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Pnl_titulo.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -136,10 +139,14 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.txt_adjuntar);
+            this.panel1.Controls.Add(this.btn_adjuntar);
+            this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txt_cuimadre);
             this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txt_cuipadre);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label5);
@@ -150,7 +157,6 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txt_pais);
             this.panel1.Controls.Add(this.lbl_fechaS);
-            this.panel1.Controls.Add(this.txt_fecha);
             this.panel1.Controls.Add(this.lbl_sexoS);
             this.panel1.Controls.Add(this.txt_sexo);
             this.panel1.Controls.Add(this.lbl_nacionalidadS);
@@ -174,9 +180,42 @@
             this.panel1.Location = new System.Drawing.Point(23, 82);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1499, 495);
+            this.panel1.Size = new System.Drawing.Size(1499, 527);
             this.panel1.TabIndex = 12;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
+            // 
+            // txt_adjuntar
+            // 
+            this.txt_adjuntar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_adjuntar.Location = new System.Drawing.Point(317, 427);
+            this.txt_adjuntar.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_adjuntar.Name = "txt_adjuntar";
+            this.txt_adjuntar.Size = new System.Drawing.Size(182, 27);
+            this.txt_adjuntar.TabIndex = 39;
+            // 
+            // btn_adjuntar
+            // 
+            this.btn_adjuntar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_adjuntar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_adjuntar.Location = new System.Drawing.Point(507, 429);
+            this.btn_adjuntar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_adjuntar.Name = "btn_adjuntar";
+            this.btn_adjuntar.Size = new System.Drawing.Size(123, 28);
+            this.btn_adjuntar.TabIndex = 38;
+            this.btn_adjuntar.Text = "Adjuntar";
+            this.btn_adjuntar.UseVisualStyleBackColor = true;
+            this.btn_adjuntar.Click += new System.EventHandler(this.Btn_adjuntar_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(46, 433);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(142, 21);
+            this.label16.TabIndex = 37;
+            this.label16.Text = "Carta de Poder";
             // 
             // label17
             // 
@@ -190,15 +229,15 @@
             this.label17.Text = "CUI Madre";
             this.label17.Click += new System.EventHandler(this.Label17_Click);
             // 
-            // textBox2
+            // txt_cuimadre
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(317, 376);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(313, 27);
-            this.textBox2.TabIndex = 36;
-            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
+            this.txt_cuimadre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cuimadre.Location = new System.Drawing.Point(317, 376);
+            this.txt_cuimadre.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_cuimadre.Name = "txt_cuimadre";
+            this.txt_cuimadre.Size = new System.Drawing.Size(313, 27);
+            this.txt_cuimadre.TabIndex = 36;
+            this.txt_cuimadre.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // label15
             // 
@@ -211,14 +250,14 @@
             this.label15.TabIndex = 33;
             this.label15.Text = "CUI Padre";
             // 
-            // textBox1
+            // txt_cuipadre
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(317, 332);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(313, 27);
-            this.textBox1.TabIndex = 34;
+            this.txt_cuipadre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cuipadre.Location = new System.Drawing.Point(317, 332);
+            this.txt_cuipadre.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_cuipadre.Name = "txt_cuipadre";
+            this.txt_cuipadre.Size = new System.Drawing.Size(313, 27);
+            this.txt_cuipadre.TabIndex = 34;
             // 
             // label1
             // 
@@ -327,15 +366,6 @@
             this.lbl_fechaS.Size = new System.Drawing.Size(255, 21);
             this.lbl_fechaS.TabIndex = 22;
             this.lbl_fechaS.Text = "Fecha nacimiento solicitante:";
-            // 
-            // txt_fecha
-            // 
-            this.txt_fecha.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_fecha.Location = new System.Drawing.Point(316, 250);
-            this.txt_fecha.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_fecha.Name = "txt_fecha";
-            this.txt_fecha.Size = new System.Drawing.Size(313, 27);
-            this.txt_fecha.TabIndex = 23;
             // 
             // lbl_sexoS
             // 
@@ -464,7 +494,7 @@
             // 
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_buscar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_buscar.Location = new System.Drawing.Point(48, 428);
+            this.btn_buscar.Location = new System.Drawing.Point(48, 481);
             this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(581, 28);
@@ -553,6 +583,7 @@
             this.btn_guardar.TabIndex = 34;
             this.btn_guardar.Text = "Guardar";
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
             // 
             // panel2
             // 
@@ -564,7 +595,7 @@
             this.panel2.Controls.Add(this.btn_banco);
             this.panel2.Controls.Add(this.txt_banco);
             this.panel2.Controls.Add(this.label14);
-            this.panel2.Location = new System.Drawing.Point(13, 605);
+            this.panel2.Location = new System.Drawing.Point(13, 617);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1499, 188);
@@ -646,6 +677,13 @@
             this.label14.Size = new System.Drawing.Size(335, 23);
             this.label14.TabIndex = 31;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(316, 252);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(313, 22);
+            this.dateTimePicker1.TabIndex = 40;
+            // 
             // Frm_verificacionHijosPrimerP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -659,6 +697,7 @@
             this.Name = "Frm_verificacionHijosPrimerP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_verificacionHijosPrimerP";
+            this.Load += new System.EventHandler(this.Frm_verificacionHijosPrimerP_Load);
             this.Pnl_titulo.ResumeLayout(false);
             this.Pnl_titulo.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -686,7 +725,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_pais;
         private System.Windows.Forms.Label lbl_fechaS;
-        private System.Windows.Forms.TextBox txt_fecha;
         private System.Windows.Forms.Label lbl_sexoS;
         private System.Windows.Forms.TextBox txt_sexo;
         private System.Windows.Forms.Label lbl_nacionalidadS;
@@ -717,8 +755,12 @@
         private System.Windows.Forms.TextBox txt_banco;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_cuimadre;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_cuipadre;
+        private System.Windows.Forms.Button btn_adjuntar;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txt_adjuntar;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

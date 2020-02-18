@@ -36,5 +36,10 @@ namespace CapaLogica
         {
             return sn.InsertarSolicitante(CUI, Nombre, Apellido, Nacionalidad, Pais, Sexo, Fecha, ornato, banco);
         }
+
+        public OdbcDataReader InsertarSolicitanteH(string CUI, string Nombre, string Apellido, string Nacionalidad, string Pais, string Sexo, string Fecha, string cui_padre,string cui_madre,string documento, string banco)
+        {
+            return sn.InsertarSolicitanteH(CUI, Nombre, Apellido, Nacionalidad, Pais, Sexo, Fecha, cui_padre,cui_madre, documento, banco);
+        }
     }
 }

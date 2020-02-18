@@ -48,3 +48,6 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.exe
 C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\obj\Debug\prueba.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\prueba\prueba\bin\Debug\Gma.QrCodeNet.Encoding.xml

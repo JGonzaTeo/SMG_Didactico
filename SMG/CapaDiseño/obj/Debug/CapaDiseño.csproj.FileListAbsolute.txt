@@ -49,3 +49,6 @@ C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
 C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
