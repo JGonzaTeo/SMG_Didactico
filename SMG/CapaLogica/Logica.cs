@@ -47,9 +47,13 @@ namespace CapaLogica
             return sn.consultaCitas(fecha);
         }
 
-        public OdbcDataReader insertarTicket(string cui, string numcita,string fecha)
+        public OdbcDataReader insertarTicket(string cui, int numcita, string fecha)
         {
             return sn.insertarTicket(cui, numcita, fecha);
+        }
+        public OdbcDataReader consultarCita()
+        {
+            return sn.consultaCita();
         }
     }
 }

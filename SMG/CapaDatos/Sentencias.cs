@@ -144,12 +144,12 @@ namespace CapaDatos
             }
         }
 
-        public OdbcDataReader insertarTicket(string cui, string numcita, string fecha)
+        public OdbcDataReader insertarTicket(string cui, int numcita, string fecha)
         {
             try
             {
                 cn.conexionbd();
-                string consulta = "insert into tbl_ticket values (0" + cui + ", '" + numcita + "' ,'" + fecha + "1" + ");";
+                string consulta = "insert into tbl_ticket values (" + 1 + ", '" + cui + "' , " + numcita + " , '" + fecha + "' , " + 1 + ");";
                 comm = new OdbcCommand(consulta, cn.conexionbd());
                 OdbcDataReader mostrar = comm.ExecuteReader();
                 return mostrar;
@@ -160,7 +160,24 @@ namespace CapaDatos
                 return null;
             }
         }
+        public OdbcDataReader consultaCita()
+        {
+            string error = "";
+            try
+            {
+                OdbcCommand command = new OdbcCommand("select count(fechayhora) from tbl_ticket where fechayhora BETWEEN curdate() and curdate() + INTERVAL 13 day group by fechayhora;", cn.conexionbd());
+                OdbcDataReader reader = command.ExecuteReader();
+                reader.Read();
+                return reader;
+            }
+            catch (Exception err)
+            {
 
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
 
     }
 }

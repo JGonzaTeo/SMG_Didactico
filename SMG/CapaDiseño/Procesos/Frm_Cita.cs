@@ -19,7 +19,7 @@ using System.Net.Mime;
 
 namespace CapaDiseño.Procesos
 {
-    
+
     public partial class Frm_Cita : Form
     {
         Logica logic = new Logica();
@@ -28,7 +28,7 @@ namespace CapaDiseño.Procesos
             InitializeComponent();
         }
 
-        
+
         private void Btn_minimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -46,7 +46,7 @@ namespace CapaDiseño.Procesos
 
             try
             {
-                OdbcDataReader cita = logic.consultaCitas(dateTimePicker1.Value.ToString());
+                OdbcDataReader cita = logic.consultaCitas(dateTimePicker1.Value.ToString("yyyy-MM-dd"));
                 contCitas = Convert.ToInt32(cita.ToString());
             }
             catch (Exception err)
@@ -54,13 +54,14 @@ namespace CapaDiseño.Procesos
                 Console.WriteLine(err.Message);
             }
 
-            if(contCitas <= 25)
+            if (contCitas <= 25)
             {
+
                 try
                 {
-                    OdbcDataReader banco = logic.insertarTicket(txt_CUI_c.Text, "1", dateTimePicker1.Value.ToString());
+                    OdbcDataReader cita = logic.insertarTicket(txt_CUI_c.Text, 1, dateTimePicker1.Value.ToString("yyyy-MM-dd"));
                     MessageBox.Show("Datos registrados.");
-                
+
                 }
                 catch (Exception err)
                 {
@@ -99,13 +100,13 @@ namespace CapaDiseño.Procesos
             {
                 btn_buscar.Enabled = true;
             }
-            
+
         }
 
         private void Frm_Cita_Load(object sender, EventArgs e)
         {
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
-            dateTimePicker1.CustomFormat = "YYYY/MM/DD hh:mm:ss";
+            dateTimePicker1.CustomFormat = "yyyy-MM-dd";
             txt_CUI_c.Enabled = false;
             txt_nombre_c.Enabled = false;
             txt_apellidos_c.Enabled = false;
@@ -116,7 +117,8 @@ namespace CapaDiseño.Procesos
         {
             try
             {
-                string filename = @"../"+txt_CUI_c.Text+".png";
+                string fecha = dateTimePicker1.Value.ToString("dd-MM-yyyy");
+                string filename = @"../Debug/" + txt_CUI_c.Text + ".png";
                 Attachment data = new Attachment(filename, MediaTypeNames.Application.Octet);
 
                 SmtpClient client = new SmtpClient();
@@ -124,31 +126,32 @@ namespace CapaDiseño.Procesos
                 // utilizamos el servidor SMTP de gmail
                 client.Host = "smtp.gmail.com";
                 client.EnableSsl = true;
-                client.Timeout = 10000;
                 client.DeliveryMethod = SmtpDeliveryMethod.Network;
                 client.UseDefaultCredentials = false;
                 // nos autenticamos con nuestra cuenta de gmail
-                client.Credentials = new NetworkCredential("smgproyecto@gmail.com", "smgproyecto");
+                client.Credentials = new NetworkCredential("smgproyecto@gmail.com", "buenasnoches");
 
-                MailMessage mail = new MailMessage(txt_correo.Text, "", "CITA DE PASAPORTE", "Buen dia, se le envia el correo para confirmar la cita" +
-                    "realizada que sera "+dateTimePicker1.Value.ToString()+", ademas se le adjunta el codigo QR que debera traer el dia de su cita. Favor no contestar este mensaje");
+                MailMessage mail = new MailMessage("smgproyecto@gmail.com", txt_correo.Text, "CITA DE PASAPORTE", "Buen dia, se le envia el correo para confirmar la cita" +
+                    "realizada que sera " + fecha + ", ademas se le adjunta el codigo QR que debera traer el dia de su cita. Favor no contestar este mensaje");
                 mail.BodyEncoding = UTF8Encoding.UTF8;
                 mail.DeliveryNotificationOptions = DeliveryNotificationOptions.OnFailure;
                 mail.Attachments.Add(data);
                 client.Send(mail);
-
-
+                MessageBox.Show("Correo enviado con exito");
+                this.Close();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                MessageBox.Show("No se pudo enviar el correo");
             }
         }
 
         private void Btn_enviar_Click(object sender, EventArgs e)
         {
             enviarCorreo();
-            this.Close();
+
+
         }
     }
 }

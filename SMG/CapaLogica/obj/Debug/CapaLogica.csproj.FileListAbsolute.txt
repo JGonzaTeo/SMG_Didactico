@@ -41,3 +41,11 @@ C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\De
 C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
