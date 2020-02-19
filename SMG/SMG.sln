@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{BB5A4795-77EA-468E-82F9-F625BE909D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDiseño", "CapaDiseño\CapaDiseño.csproj", "{E968C3E2-7B2F-4B87-AA78-736EB00CEBE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{B24840D4-AF5B-42DB-919D-5BB946230CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB5A4795-77EA-468E-82F9-F625BE909D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5A4795-77EA-468E-82F9-F625BE909D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5A4795-77EA-468E-82F9-F625BE909D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5A4795-77EA-468E-82F9-F625BE909D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E968C3E2-7B2F-4B87-AA78-736EB00CEBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E968C3E2-7B2F-4B87-AA78-736EB00CEBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E968C3E2-7B2F-4B87-AA78-736EB00CEBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E968C3E2-7B2F-4B87-AA78-736EB00CEBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24840D4-AF5B-42DB-919D-5BB946230CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24840D4-AF5B-42DB-919D-5BB946230CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24840D4-AF5B-42DB-919D-5BB946230CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24840D4-AF5B-42DB-919D-5BB946230CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {336D486B-2D40-4093-AC3D-CAABCA9D2DB5}
+	EndGlobalSection
+EndGlobal

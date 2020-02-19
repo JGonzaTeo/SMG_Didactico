@@ -1,0 +1,256 @@
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_Login.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Pasaporte.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_Login.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Pasaporte.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verCitas.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_Login.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Pasaporte.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verCitas.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\ivan5\Desktop\SMG Git\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_Login.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Pasaporte.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verCitas.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_Login.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Pasaporte.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verCitas.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\Nueva carpeta\SMG_Didactico\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\dell\Desktop\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\dell\Desktop\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\CapaDiseño.dll
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\CapaDiseño.pdb
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\CapaDatos.dll
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\CapaLogica.dll
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\CapaDatos.pdb
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\CapaLogica.pdb
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_Login.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_manDocumentos.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Cita.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Herramientas.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_noticias.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Pasaporte.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verCitas.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_verificacionHijosPrimerP.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Frm_verificacionPrimerP.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.dll
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.pdb
+D:\semiterminado\SMG_Didactico-Jose-Gonzalez\SMG\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.internacinalesnoti7.resources
