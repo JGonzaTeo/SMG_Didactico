@@ -7,3 +7,37 @@ C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaLogica\obj\Debug\CapaLogic
 C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\prueb\Desktop\Ingenieria de software\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG Git Hub\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaLogica\obj\Debug\CapaLogica.pdb
