@@ -65,6 +65,12 @@
     <Compile Include="Procesos\Frm_Cita.Designer.cs">
       <DependentUpon>Frm_Cita.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\Frm_Herramientas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_Herramientas.Designer.cs">
+      <DependentUpon>Frm_Herramientas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\Frm_noticias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_Cita.resx">
       <DependentUpon>Frm_Cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_Herramientas.resx">
+      <DependentUpon>Frm_Herramientas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_noticias.resx">
       <DependentUpon>Frm_noticias.cs</DependentUpon>

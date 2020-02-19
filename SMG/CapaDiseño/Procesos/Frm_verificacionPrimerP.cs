@@ -177,6 +177,7 @@ namespace CapaDiseño
                 OdbcDataReader banco = logic.InsertarSolicitante(lbl_CUI.Text, lbl_nombre.Text, lbl_apellidos.Text, lbl_nacionalidad.Text, lbl_paisN.Text, lbl_sexo.Text, lbl_fechaN.Text, txt_ornato.Text, txt_banco.Text);
                 MessageBox.Show("Datos registrados.");
                 this.Close();
+                fcita.Show();
             }
             catch (Exception err)
             {

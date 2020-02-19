@@ -182,6 +182,29 @@ namespace CapaDiseño
                 capacitacionH.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+        bool ventanaValidacionHerramientas = false;
+        Frm_Herramientas herramientas = new Frm_Herramientas();
+        private void toolsMenu_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Herramientas);
+            if (ventanaValidacionHerramientas == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    herramientas = new Frm_Herramientas();
+                }
+
+                herramientas.MdiParent = this;
+                herramientas.Show();
+                Application.DoEvents();
+                ventanaValidacionHerramientas = true;
+            }
+            else
+            {
+                herramientas.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
     }
 

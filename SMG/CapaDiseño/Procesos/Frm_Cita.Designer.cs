@@ -33,6 +33,8 @@
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
             this.lbl_apellidosS = new System.Windows.Forms.Label();
             this.txt_apellidos_c = new System.Windows.Forms.TextBox();
             this.lbl_nombreS = new System.Windows.Forms.Label();
@@ -44,9 +46,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnl_Resultado = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.btn_enviar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_correo = new System.Windows.Forms.TextBox();
             this.Pnl_titulo.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -121,6 +123,25 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1479, 273);
             this.panel1.TabIndex = 12;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(984, 133);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(313, 22);
+            this.dateTimePicker1.TabIndex = 19;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.DateTimePicker1_ValueChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(713, 133);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(131, 21);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Fecha de Cita";
             // 
             // lbl_apellidosS
             // 
@@ -209,13 +230,15 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.txt_correo);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pnl_Resultado);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btn_enviar);
             this.panel2.Location = new System.Drawing.Point(22, 412);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1479, 398);
+            this.panel2.Size = new System.Drawing.Size(1479, 418);
             this.panel2.TabIndex = 29;
             // 
             // pnl_Resultado
@@ -236,42 +259,44 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Codigo QR";
             // 
-            // button1
+            // btn_enviar
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(393, 351);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(581, 28);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_enviar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_enviar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_enviar.Location = new System.Drawing.Point(393, 369);
+            this.btn_enviar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_enviar.Name = "btn_enviar";
+            this.btn_enviar.Size = new System.Drawing.Size(581, 28);
+            this.btn_enviar.TabIndex = 1;
+            this.btn_enviar.Text = "Enviar";
+            this.btn_enviar.UseVisualStyleBackColor = true;
+            this.btn_enviar.Click += new System.EventHandler(this.Btn_enviar_Click);
             // 
-            // label8
+            // label1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(713, 133);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(131, 21);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Fecha de Cita";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(405, 340);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(158, 21);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Correo Solicitante";
             // 
-            // dateTimePicker1
+            // txt_correo
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(984, 133);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(313, 22);
-            this.dateTimePicker1.TabIndex = 19;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.DateTimePicker1_ValueChanged);
+            this.txt_correo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_correo.Location = new System.Drawing.Point(570, 337);
+            this.txt_correo.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_correo.Name = "txt_correo";
+            this.txt_correo.Size = new System.Drawing.Size(313, 27);
+            this.txt_correo.TabIndex = 28;
             // 
             // Frm_Cita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1514, 823);
+            this.ClientSize = new System.Drawing.Size(1514, 843);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Pnl_titulo);
@@ -306,10 +331,12 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel pnl_Resultado;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_enviar;
         public System.Windows.Forms.TextBox txt_apellidos_c;
         public System.Windows.Forms.TextBox txt_nombre_c;
         public System.Windows.Forms.TextBox txt_CUI_c;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        public System.Windows.Forms.TextBox txt_correo;
+        private System.Windows.Forms.Label label1;
     }
 }

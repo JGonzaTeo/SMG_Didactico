@@ -71,6 +71,7 @@ CREATE TABLE `tbl_ciudadanos_mayores` (
 
 LOCK TABLES `tbl_ciudadanos_mayores` WRITE;
 /*!40000 ALTER TABLE `tbl_ciudadanos_mayores` DISABLE KEYS */;
+INSERT INTO `tbl_ciudadanos_mayores` VALUES ('3001370360101','Angel','Solares','guatemalteco','Guatemala','M','1997-06-13',1,23,1);
 /*!40000 ALTER TABLE `tbl_ciudadanos_mayores` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -225,13 +226,13 @@ DROP TABLE IF EXISTS `tbl_ticket`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tbl_ticket` (
-  `correlativo_ticket` int(11) NOT NULL,
-  `zona_de_emision` int(11) DEFAULT NULL,
+  `correlativo_ticket` int(11) NOT NULL AUTO_INCREMENT,
+  `cui_solicitante` varchar(15) DEFAULT NULL,
   `numerodeturno_citas` int(11) DEFAULT NULL,
   `fechayhora` datetime DEFAULT NULL,
   `estado` tinyint(2) DEFAULT NULL,
   PRIMARY KEY (`correlativo_ticket`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -329,4 +330,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-02-17 22:42:07
+-- Dump completed on 2020-02-18 19:04:23
