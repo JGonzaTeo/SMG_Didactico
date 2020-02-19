@@ -193,6 +193,7 @@
             this.btn_buscar1.Size = new System.Drawing.Size(50, 38);
             this.btn_buscar1.TabIndex = 18;
             this.btn_buscar1.UseVisualStyleBackColor = false;
+            this.btn_buscar1.Click += new System.EventHandler(this.Btn_buscar1_Click_1);
             // 
             // label9
             // 

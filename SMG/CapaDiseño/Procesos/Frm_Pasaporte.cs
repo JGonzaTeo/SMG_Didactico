@@ -107,5 +107,10 @@ namespace CapaDiseño.Procesos
         {
             llenardatos();
         }
+
+        private void Btn_buscar1_Click_1(object sender, EventArgs e)
+        {
+            llenardatos();
+        }
     }
 }
