@@ -125,5 +125,59 @@ namespace CapaDatos
                 return null;
             }
         }
+
+        public OdbcDataReader consultaCitas(string fecha)
+        {
+            try
+            {
+                cn.conexionbd();
+                string consulta = "Select COUNT(fechayhora) FROM tbl_ticket WHERE fechayhora="+fecha+";";
+                comm = new OdbcCommand(consulta, cn.conexionbd());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+
+            catch(Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader insertarTicket(string cui, int numcita, string fecha)
+        {
+            try
+            {
+                cn.conexionbd();
+                string consulta = "insert into tbl_ticket values (" + 1 + ", '" + cui + "' , " + numcita + " , '" + fecha + "' , " + 1 + ");";
+                comm = new OdbcCommand(consulta, cn.conexionbd());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        public OdbcDataReader consultaCita()
+        {
+            string error = "";
+            try
+            {
+                OdbcCommand command = new OdbcCommand("select count(fechayhora) from tbl_ticket where fechayhora BETWEEN curdate() and curdate() + INTERVAL 13 day group by fechayhora;", cn.conexionbd());
+                OdbcDataReader reader = command.ExecuteReader();
+                reader.Read();
+                return reader;
+            }
+            catch (Exception err)
+            {
+
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
     }
 }

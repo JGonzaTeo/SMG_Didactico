@@ -171,5 +171,15 @@ namespace CapaDiseño.Procesos
 
             txt_adjuntar.Enabled = false;
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Btn_eliminar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

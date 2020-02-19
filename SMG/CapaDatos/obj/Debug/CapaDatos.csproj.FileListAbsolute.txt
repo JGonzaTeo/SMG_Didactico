@@ -42,3 +42,27 @@ C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDatos\obj\Debug\CapaD
 C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\ivan5\Desktop\SMG_Didactico-Angel-Solares\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\Google.Protobuf.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\Renci.SshNet.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\bin\Debug\MySql.Data.xml
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\SMG_Didactico-Ivan-Mogollon\SMG\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\MySql.Data.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\Google.Protobuf.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\Renci.SshNet.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\bin\Debug\MySql.Data.xml
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\ivan5\Desktop\Nueva carpeta\SMG\CapaDatos\obj\Debug\CapaDatos.pdb

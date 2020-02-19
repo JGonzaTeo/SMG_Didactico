@@ -1,15 +1,15 @@
-CREATE DATABASE  IF NOT EXISTS `mydb` /*!40100 DEFAULT CHARACTER SET latin1 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE  IF NOT EXISTS `mydb` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `mydb`;
--- MySQL dump 10.13  Distrib 8.0.17, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: mydb
 -- ------------------------------------------------------
--- Server version	8.0.17
+-- Server version	5.5.5-10.1.34-MariaDB
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!50503 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -23,7 +23,7 @@ USE `mydb`;
 
 DROP TABLE IF EXISTS `tbl_citas`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_citas` (
   `correlativo_cita` int(11) NOT NULL,
   `correlativo_ticket` int(11) DEFAULT NULL,
@@ -49,7 +49,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_ciudadanos_mayores`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_ciudadanos_mayores` (
   `CUI` varchar(15) NOT NULL,
   `Nombre` varchar(45) DEFAULT NULL,
@@ -71,6 +71,7 @@ CREATE TABLE `tbl_ciudadanos_mayores` (
 
 LOCK TABLES `tbl_ciudadanos_mayores` WRITE;
 /*!40000 ALTER TABLE `tbl_ciudadanos_mayores` DISABLE KEYS */;
+INSERT INTO `tbl_ciudadanos_mayores` VALUES ('3001370360101','Angel','Solares','guatemalteco','Guatemala','M','1997-06-13',1,23,1);
 /*!40000 ALTER TABLE `tbl_ciudadanos_mayores` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -80,7 +81,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_ciudadanos_menores`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_ciudadanos_menores` (
   `CUI` varchar(15) NOT NULL,
   `Nombre` varchar(45) DEFAULT NULL,
@@ -108,12 +109,39 @@ LOCK TABLES `tbl_ciudadanos_menores` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `tbl_login`
+--
+
+DROP TABLE IF EXISTS `tbl_login`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tbl_login` (
+  `cod_usu` int(11) NOT NULL AUTO_INCREMENT,
+  `usuario_login` varchar(45) DEFAULT NULL,
+  `pass_login` varchar(45) DEFAULT NULL,
+  `tipo_user` int(11) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`cod_usu`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tbl_login`
+--
+
+LOCK TABLES `tbl_login` WRITE;
+/*!40000 ALTER TABLE `tbl_login` DISABLE KEYS */;
+INSERT INTO `tbl_login` VALUES (1,'adm','202cb962ac59075b964b07152d234b70',1,1),(2,'jose','202cb962ac59075b964b07152d234b70',1,1);
+/*!40000 ALTER TABLE `tbl_login` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `tbl_pasaport_ciudadano`
 --
 
 DROP TABLE IF EXISTS `tbl_pasaport_ciudadano`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_pasaport_ciudadano` (
   `numerodepasaporte` int(11) NOT NULL,
   `cui` varchar(15) NOT NULL,
@@ -141,7 +169,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_pasaporte`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_pasaporte` (
   `numerodepasaporte` int(11) NOT NULL,
   `tipodepasaporte` varchar(45) DEFAULT NULL,
@@ -170,7 +198,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_proveedores`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_proveedores` (
   `cod_proveedor` int(11) NOT NULL,
   `nombre_proveedor` varchar(45) DEFAULT NULL,
@@ -196,7 +224,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_stock_pasaportes`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_stock_pasaportes` (
   `cod_proveedor` int(11) NOT NULL,
   `cod_pedido` int(11) NOT NULL,
@@ -223,15 +251,15 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_ticket`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_ticket` (
-  `correlativo_ticket` int(11) NOT NULL,
-  `zona_de_emision` int(11) DEFAULT NULL,
+  `correlativo_ticket` int(11) NOT NULL AUTO_INCREMENT,
+  `cui_solicitante` varchar(15) DEFAULT NULL,
   `numerodeturno_citas` int(11) DEFAULT NULL,
   `fechayhora` datetime DEFAULT NULL,
   `estado` tinyint(2) DEFAULT NULL,
   PRIMARY KEY (`correlativo_ticket`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -249,7 +277,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_wsbanco`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_wsbanco` (
   `doc_numero` int(11) NOT NULL,
   `estado` tinyint(4) DEFAULT NULL,
@@ -273,7 +301,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_wsmunicipalidad`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_wsmunicipalidad` (
   `doc_numero` int(11) NOT NULL,
   `estado` tinyint(4) DEFAULT NULL,
@@ -297,7 +325,7 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `tbl_wsrenap`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_wsrenap` (
   `CUI` varchar(14) NOT NULL,
   `Nombres` varchar(45) DEFAULT NULL,
@@ -319,6 +347,14 @@ LOCK TABLES `tbl_wsrenap` WRITE;
 INSERT INTO `tbl_wsrenap` VALUES ('3001370360101','Angel','Solares','guatemalteco','M','1997-06-13','Guatemala');
 /*!40000 ALTER TABLE `tbl_wsrenap` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping events for database 'mydb'
+--
+
+--
+-- Dumping routines for database 'mydb'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -329,4 +365,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-02-17 22:42:07
+-- Dump completed on 2020-02-18 22:40:31

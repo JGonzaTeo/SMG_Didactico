@@ -41,5 +41,19 @@ namespace CapaLogica
         {
             return sn.InsertarSolicitanteH(CUI, Nombre, Apellido, Nacionalidad, Pais, Sexo, Fecha, cui_padre,cui_madre, documento, banco);
         }
+
+        public OdbcDataReader consultaCitas(string fecha)
+        {
+            return sn.consultaCitas(fecha);
+        }
+
+        public OdbcDataReader insertarTicket(string cui, int numcita, string fecha)
+        {
+            return sn.insertarTicket(cui, numcita, fecha);
+        }
+        public OdbcDataReader consultarCita()
+        {
+            return sn.consultaCita();
+        }
     }
 }

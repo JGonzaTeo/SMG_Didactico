@@ -31,5 +31,27 @@ namespace CapaDiseño.Procesos
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        bool ventanaCalendario = false;
+        Frm_verCitas citas = new Frm_verCitas();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_verCitas);
+            if (ventanaCalendario == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    citas = new Frm_verCitas();
+                }
+
+                citas.Show();
+                Application.DoEvents();
+                ventanaCalendario = true;
+            }
+            else
+            {
+                citas.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }

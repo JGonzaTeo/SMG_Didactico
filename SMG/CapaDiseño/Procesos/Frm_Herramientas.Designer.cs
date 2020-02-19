@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Herramientas));
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lbl_tituloFrm = new System.Windows.Forms.Label();
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
+            this.lbl_tituloFrm = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +56,7 @@
             this.button1.Text = "Calendario de citas";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
@@ -71,52 +72,6 @@
             this.panel1.Size = new System.Drawing.Size(712, 454);
             this.panel1.TabIndex = 1;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button2.Location = new System.Drawing.Point(568, 83);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 124);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Escaneo de cita";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button3.Location = new System.Drawing.Point(8, 315);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(137, 124);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Mantenimientos";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.button4.Location = new System.Drawing.Point(568, 315);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(137, 124);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Boton de Panico";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ScrollBar;
@@ -127,17 +82,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(712, 45);
             this.panel2.TabIndex = 4;
-            // 
-            // lbl_tituloFrm
-            // 
-            this.lbl_tituloFrm.AutoSize = true;
-            this.lbl_tituloFrm.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tituloFrm.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.lbl_tituloFrm.Location = new System.Drawing.Point(3, 7);
-            this.lbl_tituloFrm.Name = "lbl_tituloFrm";
-            this.lbl_tituloFrm.Size = new System.Drawing.Size(133, 23);
-            this.lbl_tituloFrm.TabIndex = 4;
-            this.lbl_tituloFrm.Text = "Herramientas";
             // 
             // btn_minimizar
             // 
@@ -166,6 +110,63 @@
             this.btn_salir.Text = "salir";
             this.btn_salir.UseVisualStyleBackColor = false;
             this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
+            // 
+            // lbl_tituloFrm
+            // 
+            this.lbl_tituloFrm.AutoSize = true;
+            this.lbl_tituloFrm.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tituloFrm.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lbl_tituloFrm.Location = new System.Drawing.Point(3, 7);
+            this.lbl_tituloFrm.Name = "lbl_tituloFrm";
+            this.lbl_tituloFrm.Size = new System.Drawing.Size(133, 23);
+            this.lbl_tituloFrm.TabIndex = 4;
+            this.lbl_tituloFrm.Text = "Herramientas";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button4.Location = new System.Drawing.Point(568, 315);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(137, 124);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Boton de Panico";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button3.Location = new System.Drawing.Point(8, 315);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(137, 124);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Mantenimientos";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.button2.Location = new System.Drawing.Point(568, 83);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(137, 124);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Escaneo de cita";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Frm_Herramientas
             // 

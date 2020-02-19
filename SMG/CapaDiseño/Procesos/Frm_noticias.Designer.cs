@@ -81,6 +81,7 @@
             this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
             this.btn_minimizar.TabIndex = 2;
             this.btn_minimizar.UseVisualStyleBackColor = true;
+            this.btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
             // 
             // btn_eliminar
             // 

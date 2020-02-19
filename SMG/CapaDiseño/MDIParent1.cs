@@ -22,14 +22,31 @@ namespace CapaDiseño
         public MDIParent1()
         {
             InitializeComponent();
+            lbl1.Text = DateTime.Now.ToString("G");
         }
+
+        bool ventanapasaporte = false;
+        Frm_Pasaporte pasa = new Frm_Pasaporte();
 
         private void ShowNewForm(object sender, EventArgs e)
         {
-            Form childForm = new Form();
-            childForm.MdiParent = this;
-            childForm.Text = "Ventana " + childFormNumber++;
-            childForm.Show();
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Pasaporte);
+            if (ventanapasaporte == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    pasa = new Frm_Pasaporte();
+                }
+
+                pasa.MdiParent = this;
+                pasa.Show();
+                Application.DoEvents();
+                ventanapasaporte = true;
+            }
+            else
+            {
+                pasa.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
         }
 
         private void OpenFile(object sender, EventArgs e)
@@ -103,7 +120,11 @@ namespace CapaDiseño
 
         private void CerrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             Dispose();
+            this.Close();
+            Frm_Login log = new Frm_Login();
+            log.Show();
         }
 
         private void LocalesToolStripMenuItem_Click(object sender, EventArgs e)

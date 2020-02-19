@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mantenimientos\Frm_manDocumentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,18 @@
     <Compile Include="Procesos\Frm_noticias.Designer.cs">
       <DependentUpon>Frm_noticias.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\Frm_Pasaporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_Pasaporte.Designer.cs">
+      <DependentUpon>Frm_Pasaporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Frm_verCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_verCitas.Designer.cs">
+      <DependentUpon>Frm_verCitas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\Frm_verificacionHijosPrimerP.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +115,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_manDocumentos.resx">
       <DependentUpon>Frm_manDocumentos.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +132,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_noticias.resx">
       <DependentUpon>Frm_noticias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_Pasaporte.resx">
+      <DependentUpon>Frm_Pasaporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_verCitas.resx">
+      <DependentUpon>Frm_verCitas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_verificacionHijosPrimerP.resx">
       <DependentUpon>Frm_verificacionHijosPrimerP.cs</DependentUpon>
