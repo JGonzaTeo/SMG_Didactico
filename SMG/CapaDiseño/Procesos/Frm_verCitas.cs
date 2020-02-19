@@ -136,5 +136,15 @@ namespace CapaDiseño.Procesos
             label24.Text = valores[12];
             label23.Text = valores[13];
         }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

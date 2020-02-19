@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_verCitas));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_minimizar = new System.Windows.Forms.Button();
-            this.btn_salir = new System.Windows.Forms.Button();
             this.lbl_tituloFrm = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -64,54 +63,30 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.btn_Ayuda = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel2.Controls.Add(this.btn_minimizar);
-            this.panel2.Controls.Add(this.btn_salir);
+            this.panel2.Controls.Add(this.btn_Ayuda);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btn_eliminar);
             this.panel2.Controls.Add(this.lbl_tituloFrm);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1127, 42);
+            this.panel2.Size = new System.Drawing.Size(1127, 46);
             this.panel2.TabIndex = 5;
-            // 
-            // btn_minimizar
-            // 
-            this.btn_minimizar.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_minimizar.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btn_minimizar.Location = new System.Drawing.Point(1011, 7);
-            this.btn_minimizar.Name = "btn_minimizar";
-            this.btn_minimizar.Size = new System.Drawing.Size(34, 28);
-            this.btn_minimizar.TabIndex = 6;
-            this.btn_minimizar.Text = "mini";
-            this.btn_minimizar.UseVisualStyleBackColor = false;
-            this.btn_minimizar.Click += new System.EventHandler(this.btn_minimizar_Click);
-            // 
-            // btn_salir
-            // 
-            this.btn_salir.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_salir.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btn_salir.Location = new System.Drawing.Point(1078, 7);
-            this.btn_salir.Name = "btn_salir";
-            this.btn_salir.Size = new System.Drawing.Size(34, 28);
-            this.btn_salir.TabIndex = 5;
-            this.btn_salir.Text = "salir";
-            this.btn_salir.UseVisualStyleBackColor = false;
-            this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
             // lbl_tituloFrm
             // 
             this.lbl_tituloFrm.AutoSize = true;
             this.lbl_tituloFrm.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_tituloFrm.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.lbl_tituloFrm.Location = new System.Drawing.Point(3, 7);
+            this.lbl_tituloFrm.Location = new System.Drawing.Point(3, 10);
             this.lbl_tituloFrm.Name = "lbl_tituloFrm";
             this.lbl_tituloFrm.Size = new System.Drawing.Size(197, 23);
             this.lbl_tituloFrm.TabIndex = 4;
@@ -525,6 +500,44 @@
             this.label32.TabIndex = 38;
             this.label32.Text = "Cantidad";
             // 
+            // btn_Ayuda
+            // 
+            this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_Ayuda.Image")));
+            this.btn_Ayuda.Location = new System.Drawing.Point(1042, 9);
+            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Ayuda.Name = "btn_Ayuda";
+            this.btn_Ayuda.Size = new System.Drawing.Size(33, 31);
+            this.btn_Ayuda.TabIndex = 9;
+            this.btn_Ayuda.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(1007, 9);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(33, 31);
+            this.button1.TabIndex = 8;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_eliminar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_eliminar.Image = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.Image")));
+            this.btn_eliminar.Location = new System.Drawing.Point(1080, 9);
+            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(33, 31);
+            this.btn_eliminar.TabIndex = 7;
+            this.btn_eliminar.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
+            // 
             // Frm_verCitas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -577,8 +590,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btn_minimizar;
-        private System.Windows.Forms.Button btn_salir;
         private System.Windows.Forms.Label lbl_tituloFrm;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -612,5 +623,8 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Button btn_Ayuda;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_eliminar;
     }
 }

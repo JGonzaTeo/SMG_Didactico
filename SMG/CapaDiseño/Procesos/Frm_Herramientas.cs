@@ -53,5 +53,15 @@ namespace CapaDiseño.Procesos
                 citas.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

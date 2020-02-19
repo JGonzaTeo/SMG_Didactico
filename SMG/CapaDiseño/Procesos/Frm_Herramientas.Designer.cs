@@ -32,12 +32,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_minimizar = new System.Windows.Forms.Button();
-            this.btn_salir = new System.Windows.Forms.Button();
             this.lbl_tituloFrm = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btn_Ayuda = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -75,41 +76,14 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel2.Controls.Add(this.btn_minimizar);
-            this.panel2.Controls.Add(this.btn_salir);
+            this.panel2.Controls.Add(this.btn_Ayuda);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.btn_eliminar);
             this.panel2.Controls.Add(this.lbl_tituloFrm);
             this.panel2.Location = new System.Drawing.Point(0, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(712, 45);
             this.panel2.TabIndex = 4;
-            // 
-            // btn_minimizar
-            // 
-            this.btn_minimizar.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_minimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_minimizar.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btn_minimizar.Location = new System.Drawing.Point(598, 7);
-            this.btn_minimizar.Name = "btn_minimizar";
-            this.btn_minimizar.Size = new System.Drawing.Size(34, 28);
-            this.btn_minimizar.TabIndex = 6;
-            this.btn_minimizar.Text = "mini";
-            this.btn_minimizar.UseVisualStyleBackColor = false;
-            this.btn_minimizar.Click += new System.EventHandler(this.btn_minimizar_Click);
-            // 
-            // btn_salir
-            // 
-            this.btn_salir.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_salir.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btn_salir.Location = new System.Drawing.Point(665, 7);
-            this.btn_salir.Name = "btn_salir";
-            this.btn_salir.Size = new System.Drawing.Size(34, 28);
-            this.btn_salir.TabIndex = 5;
-            this.btn_salir.Text = "salir";
-            this.btn_salir.UseVisualStyleBackColor = false;
-            this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
             // lbl_tituloFrm
             // 
@@ -168,6 +142,44 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // btn_Ayuda
+            // 
+            this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_Ayuda.Image")));
+            this.btn_Ayuda.Location = new System.Drawing.Point(629, 6);
+            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Ayuda.Name = "btn_Ayuda";
+            this.btn_Ayuda.Size = new System.Drawing.Size(33, 31);
+            this.btn_Ayuda.TabIndex = 12;
+            this.btn_Ayuda.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(594, 6);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(33, 31);
+            this.button5.TabIndex = 11;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_eliminar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_eliminar.Image = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.Image")));
+            this.btn_eliminar.Location = new System.Drawing.Point(667, 6);
+            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(33, 31);
+            this.btn_eliminar.TabIndex = 10;
+            this.btn_eliminar.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
+            // 
             // Frm_Herramientas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,7 +208,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lbl_tituloFrm;
-        private System.Windows.Forms.Button btn_minimizar;
-        private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.Button btn_Ayuda;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_eliminar;
     }
 }
