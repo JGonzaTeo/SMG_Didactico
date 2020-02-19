@@ -20,17 +20,6 @@ namespace CapaDiseño.Procesos
         {
             
             InitializeComponent();
-            DateTime myVacation1 = new DateTime(2020, 1, 10);
-            DateTime myVacation2 = new DateTime(2020, 1, 17);
-            /*
-            monthCalendar1.AddBoldedDate(myVacation1);
-            monthCalendar1.AddBoldedDate(myVacation2);
-
-           
-            DateTime[] VacationDates = { myVacation1, myVacation2};
-            monthCalendar1.BoldedDates = VacationDates;
-            */
-            
         }
 
         private void btn_minimizar_Click(object sender, EventArgs e)
@@ -126,11 +115,8 @@ namespace CapaDiseño.Procesos
             }
             for (int i = 0; i < 20; i++)
             {
-                Console.WriteLine("Posicion {0}: {1}", i, valores[i]);
                 if (string.IsNullOrEmpty(valores[i]))
-                {
                     valores[i] = "0";
-                }
             }
             //Primera semana
             label22.Text = valores[0];
